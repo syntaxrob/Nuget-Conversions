@@ -184,6 +184,27 @@ namespace Conversions
             return kilometer / LengthConstValues.km_inch;
         }
 
+        /// <summary>
+        /// Convert Kilometer to Nautical mile
+        /// </summary>
+        /// <param name="kilometer"></param>
+        /// <returns>Nautical mile value</returns>
+        public double KilometerToNauticalMile(double kilometer)
+        {
+            return kilometer / LengthConstValues.km_nauticalmile;
+        }
+
+        /// <summary>
+        /// Convert Nautical mile to Kilometer
+        /// </summary>
+        /// <param name="nauticalmile"></param>
+        /// <returns>Kilometer value</returns>
+        public double NauticalMileToKilometer(double nauticalmile)
+        {
+            return nauticalmile * LengthConstValues.km_nauticalmile;
+        }
+
+
         
     }
 }
