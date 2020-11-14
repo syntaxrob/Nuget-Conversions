@@ -744,6 +744,26 @@ namespace Conversions
             return yard * LengthConstValues.micro_yard;
         }
 
+        /// <summary>
+        /// Convert Micrometer to Foot
+        /// </summary>
+        /// <param name="micrometer"></param>
+        /// <returns>Foot value</returns>
+        public double MicrometerToFoot(double micrometer)
+        {
+            return micrometer / LengthConstValues.micro_foot;
+        }
+
+        /// <summary>
+        /// Convert Foot to Micrometer
+        /// </summary>
+        /// <param name="foot"></param>
+        /// <returns>Micrometer value</returns>
+        public double FootToMicrometer(double foot)
+        {
+            return foot * LengthConstValues.micro_foot;
+        }
+
 
 
 
