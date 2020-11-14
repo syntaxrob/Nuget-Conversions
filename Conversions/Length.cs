@@ -144,6 +144,27 @@ namespace Conversions
             return yard / LengthConstValues.km_yard;
         }
 
+        /// <summary>
+        /// Convert Kilometer to Foot
+        /// </summary>
+        /// <param name="kilometer"></param>
+        /// <returns>Foot value</returns>
+        public double KilometerToFoot(double kilometer)
+        {
+            return kilometer * LengthConstValues.km_foot;
+        }
+
+        /// <summary>
+        /// Convert Foot to Kilometer
+        /// </summary>
+        /// <param name="foot"></param>
+        /// <returns>Kilometer value</returns>
+        public double FootToKiloMeter(double foot)
+        {
+            return foot / LengthConstValues.km_foot;
+        }
+
+
 
         
     }
