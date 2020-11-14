@@ -564,6 +564,26 @@ namespace Conversions
             return micrometer / LengthConstValues.mm_microm;
         }
 
+        /// <summary>
+        /// Convert Millimeter to Nanometer
+        /// </summary>
+        /// <param name="millimeter"></param>
+        /// <returns>Nanometer value</returns>
+        public double MillimeterToNanometer(double millimeter)
+        {
+            return millimeter * LengthConstValues.mm_nanom;
+        }
+
+        /// <summary>
+        /// Convert Nanometer to Millimeter
+        /// </summary>
+        /// <param name="nanometer"></param>
+        /// <returns>Millimeter value</returns>
+        public double NanometerToMillimeter(double nanometer)
+        {
+            return nanometer / LengthConstValues.mm_nanom;
+        }
+
 
 
 
