@@ -384,6 +384,26 @@ namespace Conversions
             return nmile * LengthConstValues.m_nauticalmile;
         }
 
+        /// <summary>
+        /// Convert Centimeter to Millimeter
+        /// </summary>
+        /// <param name="centimeter"></param>
+        /// <returns>Millimeter value</returns>
+        public double CentimeterToMillimeter(double centimeter)
+        {
+            return centimeter * LengthConstValues.cm_mm;
+        }
+
+        /// <summary>
+        /// Convert Millimeter to Centimeter
+        /// </summary>
+        /// <param name="millimeter"></param>
+        /// <returns>Centimeter value</returns>
+        public double MillimeterToCentimeter(double millimeter)
+        {
+            return millimeter / LengthConstValues.cm_mm;
+        }
+
 
 
 
