@@ -1044,6 +1044,26 @@ namespace Conversions
             return nauticalmile * LengthConstValues.yard_nauticalmile;
         }
 
+        /// <summary>
+        /// Convert Foot to Inch
+        /// </summary>
+        /// <param name="foot"></param>
+        /// <returns>Inch value</returns>
+        public double FootToInch(double foot)
+        {
+            return foot * LengthConstValues.feet_inch;
+        }
+
+        /// <summary>
+        /// Convert Inch to Foot
+        /// </summary>
+        /// <param name="inch"></param>
+        /// <returns>Foot value</returns>
+        public double InchToFoot(double inch)
+        {
+            return inch / LengthConstValues.feet_inch;
+        }
+
 
 
     }
