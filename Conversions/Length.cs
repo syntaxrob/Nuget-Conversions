@@ -1004,6 +1004,26 @@ namespace Conversions
             return foot / LengthConstValues.yard_foot;
         }
 
+        /// <summary>
+        /// Convert Yard to Inch
+        /// </summary>
+        /// <param name="yard"></param>
+        /// <returns>Inch value</returns>
+        public double YardtoInch(double yard)
+        {
+            return yard * LengthConstValues.yard_inch;
+        }
+
+        /// <summary>
+        /// Convert Inch to Yard
+        /// </summary>
+        /// <param name="inch"></param>
+        /// <returns>Yard value</returns>
+        public double InchToYard(double inch)
+        {
+            return inch / LengthConstValues.yard_inch;
+        }
+
 
 
     }
