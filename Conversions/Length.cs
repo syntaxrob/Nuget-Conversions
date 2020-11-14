@@ -944,6 +944,26 @@ namespace Conversions
             return foot / LengthConstValues.mile_foot;
         }
 
+        /// <summary>
+        /// Convert Mile to Inch
+        /// </summary>
+        /// <param name="mile"></param>
+        /// <returns>Inch value</returns>
+        public double MileToInch(double mile)
+        {
+            return mile * LengthConstValues.mile_inch;
+        }
+
+        /// <summary>
+        /// Convert Inch to Mile
+        /// </summary>
+        /// <param name="inch"></param>
+        /// <returns>Mile Value</returns>
+        public double InchToMile(double inch)
+        {
+            return inch / LengthConstValues.mile_inch;
+        }
+
 
 
 
