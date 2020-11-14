@@ -464,6 +464,26 @@ namespace Conversions
             return mile * LengthConstValues.cm_mile;
         }
 
+        /// <summary>
+        /// Convert Centimeter to Yard
+        /// </summary>
+        /// <param name="centimeter"></param>
+        /// <returns>Yard value</returns>
+        public double CentimeterToYard(double centimeter)
+        {
+            return centimeter / LengthConstValues.cm_yard;
+        }
+
+        /// <summary>
+        /// Convert Yard to Centimeter
+        /// </summary>
+        /// <param name="yard"></param>
+        /// <returns>Centimeter value</returns>
+        public double YardToCentimeter(double yard)
+        {
+            return yard * LengthConstValues.cm_yard;
+        }
+
 
 
 
