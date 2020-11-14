@@ -244,6 +244,26 @@ namespace Conversions
             return millimeter * LengthConstValues.m_mm;
         }
 
+        /// <summary>
+        /// Convert Meter to Micrometer
+        /// </summary>
+        /// <param name="meter"></param>
+        /// <returns>Micrometer value</returns>
+        public double MeterToMicrometer(double meter)
+        {
+            return meter * LengthConstValues.m_microm;
+        }
+
+        /// <summary>
+        /// Convert Micrometer to Meter
+        /// </summary>
+        /// <param name="micrometer"></param>
+        /// <returns>Meter value</returns>
+        public double MicrometertoMeter(double micrometer)
+        {
+            return micrometer / LengthConstValues.m_microm;
+        }
+
 
 
     }
