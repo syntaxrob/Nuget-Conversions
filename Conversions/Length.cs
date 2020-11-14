@@ -424,6 +424,26 @@ namespace Conversions
             return micrometer / LengthConstValues.cm_microm;
         }
 
+        /// <summary>
+        /// Convert Centimeter to Nanometer
+        /// </summary>
+        /// <param name="centimeter"></param>
+        /// <returns>Nanometer value</returns>
+        public double CentimeterToNanometer(double centimeter)
+        {
+            return centimeter * LengthConstValues.cm_nanom;
+        }
+
+        /// <summary>
+        /// Convert Nanometer to Centimeter
+        /// </summary>
+        /// <param name="nanometer"></param>
+        /// <returns>Centimeter value</returns>
+        public double NanometerToCentimeter(double nanometer)
+        {
+            return nanometer / LengthConstValues.cm_nanom;
+        }
+
 
 
 
