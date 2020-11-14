@@ -264,6 +264,26 @@ namespace Conversions
             return micrometer / LengthConstValues.m_microm;
         }
 
+        /// <summary>
+        /// Convert Meter to Nanometer
+        /// </summary>
+        /// <param name="meter"></param>
+        /// <returns>Nanometer value</returns>
+        public double MeterToNanoMeter(double meter)
+        {
+            return meter * LengthConstValues.m_nanom;
+        }
+
+        /// <summary>
+        /// Convert Nanometer to Meter
+        /// </summary>
+        /// <param name="nanometer"></param>
+        /// <returns>Meter value</returns>
+        public double NanometerToMeter(double nanometer)
+        {
+            return nanometer / LengthConstValues.m_nanom;
+        }
+
 
 
     }
