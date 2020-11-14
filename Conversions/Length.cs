@@ -884,6 +884,26 @@ namespace Conversions
             return inch * LengthConstValues.nano_inch;
         }
 
+        /// <summary>
+        /// Convert Nanometer to Nautical Mile
+        /// </summary>
+        /// <param name="nanometer"></param>
+        /// <returns>Nautical mile value</returns>
+        public double NanometerToNauticalMile(double nanometer)
+        {
+            return nanometer / LengthConstValues.nano_nauticalmile;
+        }
+
+        /// <summary>
+        /// Convert Nautical Mile to Nanometer
+        /// </summary>
+        /// <param name="nauticalmile"></param>
+        /// <returns>Nanometer value</returns>
+        public double NauticalmileToNanometer(double nauticalmile)
+        {
+            return nauticalmile * LengthConstValues.nano_nauticalmile;
+        }
+
 
 
 
