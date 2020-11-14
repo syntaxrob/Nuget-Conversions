@@ -818,10 +818,30 @@ namespace Conversions
         /// Convert Mile to Nanometer
         /// </summary>
         /// <param name="mile"></param>
-        /// <returns></returns>
+        /// <returns>Nanometer value</returns>
         public double MileToNanometer(double mile)
         {
             return mile * LengthConstValues.nano_mile;
+        }
+
+        /// <summary>
+        /// Convert Nanometer to Yard
+        /// </summary>
+        /// <param name="nanometer"></param>
+        /// <returns>Yard value</returns>
+        public double NanometerToYard(double nanometer)
+        {
+            return nanometer / LengthConstValues.nano_yard;
+        }
+
+        /// <summary>
+        /// Convert Yard to Nanometer
+        /// </summary>
+        /// <param name="yard"></param>
+        /// <returns>Nanometer value</returns>
+        public double YardToNanometer(double yard)
+        {
+            return yard * LengthConstValues.nano_yard;
         }
 
 
