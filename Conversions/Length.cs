@@ -984,6 +984,25 @@ namespace Conversions
             return nauticalmile * LengthConstValues.mile_nauticalmile;
         }
 
+        /// <summary>
+        /// Convert Yard to Foot
+        /// </summary>
+        /// <param name="yard"></param>
+        /// <returns>Foot value</returns>
+        public double YardToFoot(double yard)
+        {
+            return yard * LengthConstValues.yard_foot;
+        }
+
+        /// <summary>
+        /// Convert Foot to Yard
+        /// </summary>
+        /// <param name="foot"></param>
+        /// <returns>Yard value</returns>
+        public double FootToYard(double foot)
+        {
+            return foot / LengthConstValues.yard_foot;
+        }
 
 
 
