@@ -19,7 +19,7 @@ namespace Conversions
         /// </summary>
         /// <param name="meter"></param>
         /// <returns>Kilometer value</returns>
-        public double MeterToKilometer(double meter)
+        public static double MeterToKilometer(double meter)
         {
             return meter / LengthConstValues.km_m;
         }
@@ -29,7 +29,7 @@ namespace Conversions
         /// </summary>
         /// <param name="kilometer"></param>
         /// <returns>Centimeter value</returns>
-        public double KilometerToCentimeter(double kilometer)
+        public static double KilometerToCentimeter(double kilometer)
         {
             return kilometer * LengthConstValues.km_cm;
         }
@@ -39,7 +39,7 @@ namespace Conversions
         /// </summary>
         /// <param name="centimeter"></param>
         /// <returns>Kilometer value</returns>
-        public double CentimeterToKilometer(double centimeter)
+        public static double CentimeterToKilometer(double centimeter)
         {
             return centimeter / LengthConstValues.km_cm;
         }
@@ -49,7 +49,7 @@ namespace Conversions
         /// </summary>
         /// <param name="kilometer"></param>
         /// <returns>Millimeter value</returns>
-        public double KilometerToMilliimeter(double kilometer)
+        public static double KilometerToMilliimeter(double kilometer)
         {
             return kilometer * LengthConstValues.km_mm;
         }
@@ -59,7 +59,7 @@ namespace Conversions
         /// </summary>
         /// <param name="millimeter"></param>
         /// <returns>Kilometer value</returns>
-        public double MillimeterToKilometer(double millimeter)
+        public static double MillimeterToKilometer(double millimeter)
         {
             return millimeter / LengthConstValues.km_mm;
         }
@@ -69,7 +69,7 @@ namespace Conversions
         /// </summary>
         /// <param name="kilometer"></param>
         /// <returns>Micrometer value</returns>
-        public double KilometerToMicrometer(double kilometer)
+        public static double KilometerToMicrometer(double kilometer)
         {
             return kilometer * LengthConstValues.km_microm;
         }
@@ -79,7 +79,7 @@ namespace Conversions
         /// </summary>
         /// <param name="micrometer"></param>
         /// <returns>Kilometer value</returns>
-        public double MicrometerToKilometer(double micrometer)
+        public static double MicrometerToKilometer(double micrometer)
         {
             return micrometer / LengthConstValues.km_microm;
         }
@@ -89,7 +89,7 @@ namespace Conversions
         /// </summary>
         /// <param name="kilometer"></param>
         /// <returns>Nanometer value</returns>
-        public double KilometerToNanometer(double kilometer)
+        public static double KilometerToNanometer(double kilometer)
         {
             return kilometer * LengthConstValues.km_nanom;
         }
@@ -99,7 +99,7 @@ namespace Conversions
         /// </summary>
         /// <param name="nanometer"></param>
         /// <returns>Kilometers value</returns>
-        public double NanometerToKilometer(double nanometer)
+        public static double NanometerToKilometer(double nanometer)
         {
             return nanometer / LengthConstValues.km_nanom;
         }
@@ -109,7 +109,7 @@ namespace Conversions
         /// </summary>
         /// <param name="kilometer"></param>
         /// <returns>Mile value</returns>
-        public double KilometerToMile(double kilometer)
+        public static double KilometerToMile(double kilometer)
         {
             return kilometer / LengthConstValues.km_mile;
         }
@@ -119,7 +119,7 @@ namespace Conversions
         /// </summary>
         /// <param name="mile"></param>
         /// <returns>Kilometer value</returns>
-        public double MileToKilometer(double mile)
+        public static double MileToKilometer(double mile)
         {
             return mile * LengthConstValues.km_mile;
         }
@@ -129,7 +129,7 @@ namespace Conversions
         /// </summary>
         /// <param name="kilometer"></param>
         /// <returns>Yard value</returns>
-        public double KilometerToYard(double kilometer)
+        public static double KilometerToYard(double kilometer)
         {
             return kilometer * LengthConstValues.km_yard;
         }
@@ -139,7 +139,7 @@ namespace Conversions
         /// </summary>
         /// <param name="yard"></param>
         /// <returns>Kilometer value</returns>
-        public double YardToKilometer(double yard)
+        public static double YardToKilometer(double yard)
         {
             return yard / LengthConstValues.km_yard;
         }
@@ -149,7 +149,7 @@ namespace Conversions
         /// </summary>
         /// <param name="kilometer"></param>
         /// <returns>Foot value</returns>
-        public double KilometerToFoot(double kilometer)
+        public static double KilometerToFoot(double kilometer)
         {
             return kilometer * LengthConstValues.km_foot;
         }
@@ -159,7 +159,7 @@ namespace Conversions
         /// </summary>
         /// <param name="foot"></param>
         /// <returns>Kilometer value</returns>
-        public double FootToKiloMeter(double foot)
+        public static double FootToKiloMeter(double foot)
         {
             return foot / LengthConstValues.km_foot;
         }
@@ -169,7 +169,7 @@ namespace Conversions
         /// </summary>
         /// <param name="kilometer"></param>
         /// <returns>Inch value</returns>
-        public double KilometerToInch(double kilometer)
+        public static double KilometerToInch(double kilometer)
         {
             return kilometer * LengthConstValues.km_inch;
         }
@@ -179,7 +179,7 @@ namespace Conversions
         /// </summary>
         /// <param name="kilometer"></param>
         /// <returns>Inch value</returns>
-        public double InchToKilometer(double kilometer)
+        public static double InchToKilometer(double kilometer)
         {
             return kilometer / LengthConstValues.km_inch;
         }
@@ -189,7 +189,7 @@ namespace Conversions
         /// </summary>
         /// <param name="kilometer"></param>
         /// <returns>Nautical mile value</returns>
-        public double KilometerToNauticalMile(double kilometer)
+        public static double KilometerToNauticalMile(double kilometer)
         {
             return kilometer / LengthConstValues.km_nauticalmile;
         }
@@ -199,7 +199,7 @@ namespace Conversions
         /// </summary>
         /// <param name="nauticalmile"></param>
         /// <returns>Kilometer value</returns>
-        public double NauticalMileToKilometer(double nauticalmile)
+        public static double NauticalMileToKilometer(double nauticalmile)
         {
             return nauticalmile * LengthConstValues.km_nauticalmile;
         }
@@ -209,7 +209,7 @@ namespace Conversions
         /// </summary>
         /// <param name="meter"></param>
         /// <returns>Centimeter values</returns>
-        public double MeterToCentimeter(double meter)
+        public static double MeterToCentimeter(double meter)
         {
             return meter * LengthConstValues.m_cm;
         }
@@ -219,7 +219,7 @@ namespace Conversions
         /// </summary>
         /// <param name="centimeter"></param>
         /// <returns>Meter value</returns>
-        public double CentimeterToMeter(double centimeter)
+        public static double CentimeterToMeter(double centimeter)
         {
             return centimeter / LengthConstValues.m_cm;
         }
@@ -229,7 +229,7 @@ namespace Conversions
         /// </summary>
         /// <param name="meter"></param>
         /// <returns>Millimeter value</returns>
-        public double MeterToMillimeter(double meter)
+        public static double MeterToMillimeter(double meter)
         {
             return meter * LengthConstValues.m_mm;
         }
@@ -239,7 +239,7 @@ namespace Conversions
         /// </summary>
         /// <param name="millimeter"></param>
         /// <returns>Meter value</returns>
-        public double MillimeterToMeter(double millimeter)
+        public static double MillimeterToMeter(double millimeter)
         {
             return millimeter * LengthConstValues.m_mm;
         }
@@ -249,7 +249,7 @@ namespace Conversions
         /// </summary>
         /// <param name="meter"></param>
         /// <returns>Micrometer value</returns>
-        public double MeterToMicrometer(double meter)
+        public static double MeterToMicrometer(double meter)
         {
             return meter * LengthConstValues.m_microm;
         }
@@ -259,7 +259,7 @@ namespace Conversions
         /// </summary>
         /// <param name="micrometer"></param>
         /// <returns>Meter value</returns>
-        public double MicrometerToMeter(double micrometer)
+        public static double MicrometerToMeter(double micrometer)
         {
             return micrometer / LengthConstValues.m_microm;
         }
@@ -269,7 +269,7 @@ namespace Conversions
         /// </summary>
         /// <param name="meter"></param>
         /// <returns>Nanometer value</returns>
-        public double MeterToNanometer(double meter)
+        public static double MeterToNanometer(double meter)
         {
             return meter * LengthConstValues.m_nanom;
         }
@@ -279,7 +279,7 @@ namespace Conversions
         /// </summary>
         /// <param name="nanometer"></param>
         /// <returns>Meter value</returns>
-        public double NanometerToMeter(double nanometer)
+        public static double NanometerToMeter(double nanometer)
         {
             return nanometer / LengthConstValues.m_nanom;
         }
@@ -289,7 +289,7 @@ namespace Conversions
         /// </summary>
         /// <param name="meter"></param>
         /// <returns>Mile value</returns>
-        public double MeterToMile(double meter)
+        public static double MeterToMile(double meter)
         {
             return meter / LengthConstValues.m_mile;
         }
@@ -299,7 +299,7 @@ namespace Conversions
         /// </summary>
         /// <param name="mile"></param>
         /// <returns>Meter value</returns>
-        public double MileToMeter(double mile)
+        public static double MileToMeter(double mile)
         {
             return mile * LengthConstValues.m_mile;
         }
@@ -309,7 +309,7 @@ namespace Conversions
         /// </summary>
         /// <param name="meter"></param>
         /// <returns>Yard value</returns>
-        public double MeterToYard(double meter)
+        public static double MeterToYard(double meter)
         {
             return meter * LengthConstValues.m_yard;
         }
@@ -319,7 +319,7 @@ namespace Conversions
         /// </summary>
         /// <param name="yard"></param>
         /// <returns>Meter value</returns>
-        public double YardToMeter(double yard)
+        public static double YardToMeter(double yard)
         {
             return yard / LengthConstValues.m_yard;
         }
@@ -329,7 +329,7 @@ namespace Conversions
         /// </summary>
         /// <param name="meter"></param>
         /// <returns>Foot value</returns>
-        public double MeterToFoot(double meter)
+        public static double MeterToFoot(double meter)
         {
             return meter * LengthConstValues.m_foot;
         }
@@ -339,7 +339,7 @@ namespace Conversions
         /// </summary>
         /// <param name="foot"></param>
         /// <returns>Meter value</returns>
-        public double FootToMeter(double foot)
+        public static double FootToMeter(double foot)
         {
             return foot / LengthConstValues.m_foot;
         }
@@ -349,7 +349,7 @@ namespace Conversions
         /// </summary>
         /// <param name="meter"></param>
         /// <returns>Inch value</returns>
-        public double MeterToInch(double meter)
+        public static double MeterToInch(double meter)
         {
             return meter * LengthConstValues.m_inch;
         }
@@ -359,7 +359,7 @@ namespace Conversions
         /// </summary>
         /// <param name="inch"></param>
         /// <returns>Meter value</returns>
-        public double InchToMeter(double inch)
+        public static double InchToMeter(double inch)
         {
             return inch / LengthConstValues.m_inch;
         }
@@ -369,7 +369,7 @@ namespace Conversions
         /// </summary>
         /// <param name="meter"></param>
         /// <returns>Nauticalmile value</returns>
-        public double MeterToNauticalmile(double meter)
+        public static double MeterToNauticalmile(double meter)
         {
             return meter / LengthConstValues.m_nauticalmile;
         }
@@ -379,7 +379,7 @@ namespace Conversions
         /// </summary>
         /// <param name="nmile"></param>
         /// <returns>Meter value</returns>
-        public double NauticalmileToMeter(double nmile)
+        public static double NauticalmileToMeter(double nmile)
         {
             return nmile * LengthConstValues.m_nauticalmile;
         }
@@ -389,7 +389,7 @@ namespace Conversions
         /// </summary>
         /// <param name="centimeter"></param>
         /// <returns>Millimeter value</returns>
-        public double CentimeterToMillimeter(double centimeter)
+        public static double CentimeterToMillimeter(double centimeter)
         {
             return centimeter * LengthConstValues.cm_mm;
         }
@@ -399,7 +399,7 @@ namespace Conversions
         /// </summary>
         /// <param name="millimeter"></param>
         /// <returns>Centimeter value</returns>
-        public double MillimeterToCentimeter(double millimeter)
+        public static double MillimeterToCentimeter(double millimeter)
         {
             return millimeter / LengthConstValues.cm_mm;
         }
@@ -409,7 +409,7 @@ namespace Conversions
         /// </summary>
         /// <param name="centimeter"></param>
         /// <returns>Micrometer value</returns>
-        public double CentimeterToMicrometer(double centimeter)
+        public static double CentimeterToMicrometer(double centimeter)
         {
             return centimeter * LengthConstValues.cm_microm;
         }
@@ -419,7 +419,7 @@ namespace Conversions
         /// </summary>
         /// <param name="micrometer"></param>
         /// <returns>Centimeter value</returns>
-        public double MicrometerToCentimeter(double micrometer)
+        public static double MicrometerToCentimeter(double micrometer)
         {
             return micrometer / LengthConstValues.cm_microm;
         }
@@ -429,7 +429,7 @@ namespace Conversions
         /// </summary>
         /// <param name="centimeter"></param>
         /// <returns>Nanometer value</returns>
-        public double CentimeterToNanometer(double centimeter)
+        public static double CentimeterToNanometer(double centimeter)
         {
             return centimeter * LengthConstValues.cm_nanom;
         }
@@ -439,7 +439,7 @@ namespace Conversions
         /// </summary>
         /// <param name="nanometer"></param>
         /// <returns>Centimeter value</returns>
-        public double NanometerToCentimeter(double nanometer)
+        public static double NanometerToCentimeter(double nanometer)
         {
             return nanometer / LengthConstValues.cm_nanom;
         }
@@ -449,7 +449,7 @@ namespace Conversions
         /// </summary>
         /// <param name="centimeter"></param>
         /// <returns>Mile value</returns>
-        public double CentimeterToMile(double centimeter)
+        public static double CentimeterToMile(double centimeter)
         {
             return centimeter / LengthConstValues.cm_mile;
         }
@@ -459,7 +459,7 @@ namespace Conversions
         /// </summary>
         /// <param name="mile"></param>
         /// <returns>Centimeter value</returns>
-        public double MileToCentimeter(double mile)
+        public static double MileToCentimeter(double mile)
         {
             return mile * LengthConstValues.cm_mile;
         }
@@ -469,7 +469,7 @@ namespace Conversions
         /// </summary>
         /// <param name="centimeter"></param>
         /// <returns>Yard value</returns>
-        public double CentimeterToYard(double centimeter)
+        public static double CentimeterToYard(double centimeter)
         {
             return centimeter / LengthConstValues.cm_yard;
         }
@@ -479,7 +479,7 @@ namespace Conversions
         /// </summary>
         /// <param name="yard"></param>
         /// <returns>Centimeter value</returns>
-        public double YardToCentimeter(double yard)
+        public static double YardToCentimeter(double yard)
         {
             return yard * LengthConstValues.cm_yard;
         }
@@ -489,7 +489,7 @@ namespace Conversions
         /// </summary>
         /// <param name="centimeter"></param>
         /// <returns>Foot value</returns>
-        public double CentimeterToFoot(double centimeter)
+        public static double CentimeterToFoot(double centimeter)
         {
             return centimeter / LengthConstValues.cm_foot;
         }
@@ -499,7 +499,7 @@ namespace Conversions
         /// </summary>
         /// <param name="foot"></param>
         /// <returns>Centimeter value</returns>
-        public double FootToCentimeter(double foot)
+        public static double FootToCentimeter(double foot)
         {
             return foot * LengthConstValues.cm_foot;
         }
@@ -509,7 +509,7 @@ namespace Conversions
         /// </summary>
         /// <param name="centimeter"></param>
         /// <returns>Inch value</returns>
-        public double CentimeterToInch(double centimeter)
+        public static double CentimeterToInch(double centimeter)
         {
             return centimeter / LengthConstValues.cm_inch;
         }
@@ -519,7 +519,7 @@ namespace Conversions
         /// </summary>
         /// <param name="inch"></param>
         /// <returns>Centimeter value</returns>
-        public double InchToCentimeter(double inch)
+        public static double InchToCentimeter(double inch)
         {
             return inch * LengthConstValues.cm_inch;
         }
@@ -529,7 +529,7 @@ namespace Conversions
         /// </summary>
         /// <param name="centimeter"></param>
         /// <returns>Nautical mile value</returns>
-        public double CentimeterToNauticalMile(double centimeter)
+        public static double CentimeterToNauticalMile(double centimeter)
         {
             return centimeter / LengthConstValues.cm_nauticalmile;
         }
@@ -539,7 +539,7 @@ namespace Conversions
         /// </summary>
         /// <param name="nauticalmile"></param>
         /// <returns>Centimeter value</returns>
-        public double NauticalMileToCentimeter(double nauticalmile)
+        public static double NauticalMileToCentimeter(double nauticalmile)
         {
             return nauticalmile * LengthConstValues.cm_nauticalmile;
         }
@@ -549,7 +549,7 @@ namespace Conversions
         /// </summary>
         /// <param name="millimeter"></param>
         /// <returns>Micrometer value</returns>
-        public double MillimeterToMicrometer(double millimeter)
+        public static double MillimeterToMicrometer(double millimeter)
         {
             return millimeter * LengthConstValues.mm_microm;
         }
@@ -559,7 +559,7 @@ namespace Conversions
         /// </summary>
         /// <param name="micrometer"></param>
         /// <returns>Millimeter value</returns>
-        public double MicrometerToMillimeter(double micrometer)
+        public static double MicrometerToMillimeter(double micrometer)
         {
             return micrometer / LengthConstValues.mm_microm;
         }
@@ -569,7 +569,7 @@ namespace Conversions
         /// </summary>
         /// <param name="millimeter"></param>
         /// <returns>Nanometer value</returns>
-        public double MillimeterToNanometer(double millimeter)
+        public static double MillimeterToNanometer(double millimeter)
         {
             return millimeter * LengthConstValues.mm_nanom;
         }
@@ -579,7 +579,7 @@ namespace Conversions
         /// </summary>
         /// <param name="nanometer"></param>
         /// <returns>Millimeter value</returns>
-        public double NanometerToMillimeter(double nanometer)
+        public static double NanometerToMillimeter(double nanometer)
         {
             return nanometer / LengthConstValues.mm_nanom;
         }
@@ -589,7 +589,7 @@ namespace Conversions
         /// </summary>
         /// <param name="millimeter"></param>
         /// <returns>Mile value</returns>
-        public double MillimeterToMile(double millimeter)
+        public static double MillimeterToMile(double millimeter)
         {
             return millimeter / LengthConstValues.mm_mile;
         }
@@ -599,7 +599,7 @@ namespace Conversions
         /// </summary>
         /// <param name="mile"></param>
         /// <returns>Millimeter value</returns>
-        public double MileToMillimeter(double mile)
+        public static double MileToMillimeter(double mile)
         {
             return mile * LengthConstValues.mm_mile;
         }
@@ -609,7 +609,7 @@ namespace Conversions
         /// </summary>
         /// <param name="millimeter"></param>
         /// <returns>Yard value</returns>
-        public double MillimeterToYard(double millimeter)
+        public static double MillimeterToYard(double millimeter)
         {
             return millimeter / LengthConstValues.mm_yard;
         }
@@ -619,7 +619,7 @@ namespace Conversions
         /// </summary>
         /// <param name="yard"></param>
         /// <returns>Millimeter value</returns>
-        public double YardToMillimeter(double yard)
+        public static double YardToMillimeter(double yard)
         {
             return yard * LengthConstValues.mm_yard;
         }
@@ -629,7 +629,7 @@ namespace Conversions
         /// </summary>
         /// <param name="millimeter"></param>
         /// <returns>Foot value</returns>
-        public double MillimeterToFoot(double millimeter)
+        public static double MillimeterToFoot(double millimeter)
         {
             return millimeter / LengthConstValues.mm_foot;
         }
@@ -639,7 +639,7 @@ namespace Conversions
         /// </summary>
         /// <param name="foot"></param>
         /// <returns>Millimeter value</returns>
-        public double FootToMillimeter(double foot)
+        public static double FootToMillimeter(double foot)
         {
             return foot * LengthConstValues.mm_foot;
         }
@@ -649,7 +649,7 @@ namespace Conversions
         /// </summary>
         /// <param name="millimeter"></param>
         /// <returns>Inch value</returns>
-        public double MillimeterToInch(double millimeter)
+        public static double MillimeterToInch(double millimeter)
         {
             return millimeter / LengthConstValues.mm_inch;
         }
@@ -659,7 +659,7 @@ namespace Conversions
         /// </summary>
         /// <param name="inch"></param>
         /// <returns>Millimeter value</returns>
-        public double InchToMillimeter(double inch)
+        public static double InchToMillimeter(double inch)
         {
             return inch * LengthConstValues.mm_inch;
         }
@@ -669,7 +669,7 @@ namespace Conversions
         /// </summary>
         /// <param name="millimeter"></param>
         /// <returns>Nautical Mile value</returns>
-        public double MillimeterToNauticalmile(double millimeter)
+        public static double MillimeterToNauticalmile(double millimeter)
         {
             return millimeter / LengthConstValues.mm_nauticalmile;
         }
@@ -679,7 +679,7 @@ namespace Conversions
         /// </summary>
         /// <param name="nauticalmile"></param>
         /// <returns>Millimeter value</returns>
-        public double NauticalmileToMillimeter(double nauticalmile)
+        public static double NauticalmileToMillimeter(double nauticalmile)
         {
             return nauticalmile * LengthConstValues.mm_nauticalmile;
         }
@@ -689,7 +689,7 @@ namespace Conversions
         /// </summary>
         /// <param name="micrometer"></param>
         /// <returns>Nanometer to Micrometer</returns>
-        public double MicrometerToNanometer(double micrometer)
+        public static double MicrometerToNanometer(double micrometer)
         {
             return micrometer * LengthConstValues.micro_nanom;
         }
@@ -699,7 +699,7 @@ namespace Conversions
         /// </summary>
         /// <param name="nanometer"></param>
         /// <returns>Micrometer value</returns>
-        public double NanometerToMicrometer(double nanometer)
+        public static double NanometerToMicrometer(double nanometer)
         {
             return nanometer / LengthConstValues.micro_nanom;
         }
@@ -709,7 +709,7 @@ namespace Conversions
         /// </summary>
         /// <param name="micrometer"></param>
         /// <returns>Mile value</returns>
-        public double MicrometerToMile(double micrometer)
+        public static double MicrometerToMile(double micrometer)
         {
             return micrometer / LengthConstValues.micro_mile;
         }
@@ -719,7 +719,7 @@ namespace Conversions
         /// </summary>
         /// <param name="mile"></param>
         /// <returns>Micrometers value</returns>
-        public double MileToMicrometer(double mile)
+        public static double MileToMicrometer(double mile)
         {
             return mile * LengthConstValues.micro_mile;
         }
@@ -729,7 +729,7 @@ namespace Conversions
         /// </summary>
         /// <param name="micrometer"></param>
         /// <returns>Yard value</returns>
-        public double MicrometerToYard(double micrometer)
+        public static double MicrometerToYard(double micrometer)
         {
             return micrometer / LengthConstValues.micro_yard;
         }
@@ -739,7 +739,7 @@ namespace Conversions
         /// </summary>
         /// <param name="yard"></param>
         /// <returns>Micrometer value</returns>
-        public double YardToMicrometer(double yard)
+        public static double YardToMicrometer(double yard)
         {
             return yard * LengthConstValues.micro_yard;
         }
@@ -749,7 +749,7 @@ namespace Conversions
         /// </summary>
         /// <param name="micrometer"></param>
         /// <returns>Foot value</returns>
-        public double MicrometerToFoot(double micrometer)
+        public static double MicrometerToFoot(double micrometer)
         {
             return micrometer / LengthConstValues.micro_foot;
         }
@@ -759,7 +759,7 @@ namespace Conversions
         /// </summary>
         /// <param name="foot"></param>
         /// <returns>Micrometer value</returns>
-        public double FootToMicrometer(double foot)
+        public static double FootToMicrometer(double foot)
         {
             return foot * LengthConstValues.micro_foot;
         }
@@ -769,7 +769,7 @@ namespace Conversions
         /// </summary>
         /// <param name="micrometer"></param>
         /// <returns>Inch value</returns>
-        public double MicrometerToInch(double micrometer)
+        public static double MicrometerToInch(double micrometer)
         {
             return micrometer / LengthConstValues.micro_inch;
         }
@@ -779,7 +779,7 @@ namespace Conversions
         /// </summary>
         /// <param name="inch"></param>
         /// <returns>Micrometer value</returns>
-        public double InchToMicrometer(double inch)
+        public static double InchToMicrometer(double inch)
         {
             return inch * LengthConstValues.micro_inch;
         }
@@ -789,7 +789,7 @@ namespace Conversions
         /// </summary>
         /// <param name="micrometer"></param>
         /// <returns>Nautical mile value</returns>
-        public double MicrometerToNauticalmile(double micrometer)
+        public static double MicrometerToNauticalmile(double micrometer)
         {
             return micrometer / LengthConstValues.micro_nauticalmile;
         }
@@ -799,7 +799,7 @@ namespace Conversions
         /// </summary>
         /// <param name="nauticalmile"></param>
         /// <returns>Micrometer value</returns>
-        public double NauticalmileToMicrometer(double nauticalmile)
+        public static double NauticalmileToMicrometer(double nauticalmile)
         {
             return nauticalmile * LengthConstValues.micro_nauticalmile;
         }
@@ -809,7 +809,7 @@ namespace Conversions
         /// </summary>
         /// <param name="nanometer"></param>
         /// <returns>Mile value</returns>
-        public double NanometerToMile(double nanometer)
+        public static double NanometerToMile(double nanometer)
         {
             return nanometer / LengthConstValues.nano_mile;
         }
@@ -819,7 +819,7 @@ namespace Conversions
         /// </summary>
         /// <param name="mile"></param>
         /// <returns>Nanometer value</returns>
-        public double MileToNanometer(double mile)
+        public static double MileToNanometer(double mile)
         {
             return mile * LengthConstValues.nano_mile;
         }
@@ -829,7 +829,7 @@ namespace Conversions
         /// </summary>
         /// <param name="nanometer"></param>
         /// <returns>Yard value</returns>
-        public double NanometerToYard(double nanometer)
+        public static double NanometerToYard(double nanometer)
         {
             return nanometer / LengthConstValues.nano_yard;
         }
@@ -839,7 +839,7 @@ namespace Conversions
         /// </summary>
         /// <param name="yard"></param>
         /// <returns>Nanometer value</returns>
-        public double YardToNanometer(double yard)
+        public static double YardToNanometer(double yard)
         {
             return yard * LengthConstValues.nano_yard;
         }
@@ -849,7 +849,7 @@ namespace Conversions
         /// </summary>
         /// <param name="nanometer"></param>
         /// <returns>Foot value</returns>
-        public double NanometerToFoot(double nanometer)
+        public static double NanometerToFoot(double nanometer)
         {
             return nanometer / LengthConstValues.nano_foot;
         }
@@ -859,7 +859,7 @@ namespace Conversions
         /// </summary>
         /// <param name="foot"></param>
         /// <returns>Nanometer value</returns>
-        public double FootToNanometer(double foot)
+        public static double FootToNanometer(double foot)
         {
             return foot * LengthConstValues.nano_foot;
         }
@@ -869,7 +869,7 @@ namespace Conversions
         /// </summary>
         /// <param name="nanometer"></param>
         /// <returns>Inch value</returns>
-        public double NanometerToInch(double nanometer)
+        public static double NanometerToInch(double nanometer)
         {
             return nanometer / LengthConstValues.nano_inch;
         }
@@ -879,7 +879,7 @@ namespace Conversions
         /// </summary>
         /// <param name="inch"></param>
         /// <returns>Nanometer value</returns>
-        public double InchToNanometer(double inch)
+        public static double InchToNanometer(double inch)
         {
             return inch * LengthConstValues.nano_inch;
         }
@@ -889,7 +889,7 @@ namespace Conversions
         /// </summary>
         /// <param name="nanometer"></param>
         /// <returns>Nautical mile value</returns>
-        public double NanometerToNauticalMile(double nanometer)
+        public static double NanometerToNauticalMile(double nanometer)
         {
             return nanometer / LengthConstValues.nano_nauticalmile;
         }
@@ -899,7 +899,7 @@ namespace Conversions
         /// </summary>
         /// <param name="nauticalmile"></param>
         /// <returns>Nanometer value</returns>
-        public double NauticalmileToNanometer(double nauticalmile)
+        public static double NauticalmileToNanometer(double nauticalmile)
         {
             return nauticalmile * LengthConstValues.nano_nauticalmile;
         }
@@ -909,7 +909,7 @@ namespace Conversions
         /// </summary>
         /// <param name="mile"></param>
         /// <returns>Yard value</returns>
-        public double MileToYard(double mile)
+        public static double MileToYard(double mile)
         {
             return mile * LengthConstValues.mile_yard;
         }
@@ -919,7 +919,7 @@ namespace Conversions
         /// </summary>
         /// <param name="yard"></param>
         /// <returns>Mile value</returns>
-        public double YardToMile(double yard)
+        public static double YardToMile(double yard)
         {
             return yard / LengthConstValues.mile_yard;
         }
@@ -929,7 +929,7 @@ namespace Conversions
         /// </summary>
         /// <param name="mile"></param>
         /// <returns>Foot value</returns>
-        public double MileToFoot(double mile)
+        public static double MileToFoot(double mile)
         {
             return mile * LengthConstValues.mile_foot;
         }
@@ -939,7 +939,7 @@ namespace Conversions
         /// </summary>
         /// <param name="foot"></param>
         /// <returns>Mile value</returns>
-        public double FootToMile(double foot)
+        public static double FootToMile(double foot)
         {
             return foot / LengthConstValues.mile_foot;
         }
@@ -949,7 +949,7 @@ namespace Conversions
         /// </summary>
         /// <param name="mile"></param>
         /// <returns>Inch value</returns>
-        public double MileToInch(double mile)
+        public static double MileToInch(double mile)
         {
             return mile * LengthConstValues.mile_inch;
         }
@@ -959,7 +959,7 @@ namespace Conversions
         /// </summary>
         /// <param name="inch"></param>
         /// <returns>Mile Value</returns>
-        public double InchToMile(double inch)
+        public static double InchToMile(double inch)
         {
             return inch / LengthConstValues.mile_inch;
         }
@@ -969,7 +969,7 @@ namespace Conversions
         /// </summary>
         /// <param name="mile"></param>
         /// <returns>Nautical mile value</returns>
-        public double MileToNauticalmile(double mile)
+        public static double MileToNauticalmile(double mile)
         {
             return mile / LengthConstValues.mile_nauticalmile;
         }
@@ -979,7 +979,7 @@ namespace Conversions
         /// </summary>
         /// <param name="nauticalmile"></param>
         /// <returns>Mile value</returns>
-        public double NauticalmiletoMile(double nauticalmile)
+        public static double NauticalmiletoMile(double nauticalmile)
         {
             return nauticalmile * LengthConstValues.mile_nauticalmile;
         }
@@ -989,7 +989,7 @@ namespace Conversions
         /// </summary>
         /// <param name="yard"></param>
         /// <returns>Foot value</returns>
-        public double YardToFoot(double yard)
+        public static double YardToFoot(double yard)
         {
             return yard * LengthConstValues.yard_foot;
         }
@@ -999,7 +999,7 @@ namespace Conversions
         /// </summary>
         /// <param name="foot"></param>
         /// <returns>Yard value</returns>
-        public double FootToYard(double foot)
+        public static double FootToYard(double foot)
         {
             return foot / LengthConstValues.yard_foot;
         }
@@ -1009,7 +1009,7 @@ namespace Conversions
         /// </summary>
         /// <param name="yard"></param>
         /// <returns>Inch value</returns>
-        public double YardtoInch(double yard)
+        public static double YardtoInch(double yard)
         {
             return yard * LengthConstValues.yard_inch;
         }
@@ -1019,7 +1019,7 @@ namespace Conversions
         /// </summary>
         /// <param name="inch"></param>
         /// <returns>Yard value</returns>
-        public double InchToYard(double inch)
+        public static double InchToYard(double inch)
         {
             return inch / LengthConstValues.yard_inch;
         }
@@ -1029,7 +1029,7 @@ namespace Conversions
         /// </summary>
         /// <param name="yard"></param>
         /// <returns>Nautical mile value</returns>
-        public double YardToNauticalmile(double yard)
+        public static double YardToNauticalmile(double yard)
         {
             return yard / LengthConstValues.yard_nauticalmile;
         }
@@ -1039,7 +1039,7 @@ namespace Conversions
         /// </summary>
         /// <param name="nauticalmile"></param>
         /// <returns>Yard value</returns>
-        public double NauticalmileToYard(double nauticalmile)
+        public static double NauticalmileToYard(double nauticalmile)
         {
             return nauticalmile * LengthConstValues.yard_nauticalmile;
         }
@@ -1049,7 +1049,7 @@ namespace Conversions
         /// </summary>
         /// <param name="foot"></param>
         /// <returns>Inch value</returns>
-        public double FootToInch(double foot)
+        public static double FootToInch(double foot)
         {
             return foot * LengthConstValues.feet_inch;
         }
@@ -1059,7 +1059,7 @@ namespace Conversions
         /// </summary>
         /// <param name="inch"></param>
         /// <returns>Foot value</returns>
-        public double InchToFoot(double inch)
+        public static double InchToFoot(double inch)
         {
             return inch / LengthConstValues.feet_inch;
         }
@@ -1069,7 +1069,7 @@ namespace Conversions
         /// </summary>
         /// <param name="foot"></param>
         /// <returns>Nautical mile value</returns>
-        public double FootToNauticalmile(double foot)
+        public static double FootToNauticalmile(double foot)
         {
             return foot / LengthConstValues.feet_nauticalmile;
         }
@@ -1079,7 +1079,7 @@ namespace Conversions
         /// </summary>
         /// <param name="nauticalmile"></param>
         /// <returns>Foot value</returns>
-        public double NauticalmileToFoot(double nauticalmile)
+        public static double NauticalmileToFoot(double nauticalmile)
         {
             return nauticalmile * LengthConstValues.feet_nauticalmile;
         }
@@ -1089,7 +1089,7 @@ namespace Conversions
         /// </summary>
         /// <param name="inch"></param>
         /// <returns>Nautical mile value</returns>
-        public double InchToNauticalmile(double inch)
+        public static double InchToNauticalmile(double inch)
         {
             return inch / LengthConstValues.inch_nauticalmile;
         }
@@ -1099,7 +1099,7 @@ namespace Conversions
         /// </summary>
         /// <param name="nauticalmile"></param>
         /// <returns>Inch value</returns>
-        public double NauticalmileToInch(double nauticalmile)
+        public static double NauticalmileToInch(double nauticalmile)
         {
             return nauticalmile * LengthConstValues.inch_nauticalmile;
         }
