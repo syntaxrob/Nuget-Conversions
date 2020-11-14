@@ -224,6 +224,26 @@ namespace Conversions
             return centimeter / LengthConstValues.m_cm;
         }
 
+        /// <summary>
+        /// Convert Meter to Millimeters
+        /// </summary>
+        /// <param name="meter"></param>
+        /// <returns>Millimeter value</returns>
+        public double MeterToMillimeter(double meter)
+        {
+            return meter * LengthConstValues.m_mm;
+        }
+
+        /// <summary>
+        /// Convert Millimeter to Meter
+        /// </summary>
+        /// <param name="millimeter"></param>
+        /// <returns>Meter value</returns>
+        public double MillimeterToMeter(double millimeter)
+        {
+            return millimeter * LengthConstValues.m_mm;
+        }
+
 
 
     }
