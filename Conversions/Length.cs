@@ -584,6 +584,26 @@ namespace Conversions
             return nanometer / LengthConstValues.mm_nanom;
         }
 
+        /// <summary>
+        /// Convert Millimeter to Mile
+        /// </summary>
+        /// <param name="millimeter"></param>
+        /// <returns>Mile value</returns>
+        public double MillimeterToMile(double millimeter)
+        {
+            return millimeter / LengthConstValues.mm_mile;
+        }
+
+        /// <summary>
+        /// Convert Mile to Millimeter
+        /// </summary>
+        /// <param name="mile"></param>
+        /// <returns>Millimeter value</returns>
+        public double MileToMillimeter(double mile)
+        {
+            return mile * LengthConstValues.mm_mile;
+        }
+
 
 
 
