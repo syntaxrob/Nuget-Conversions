@@ -644,6 +644,26 @@ namespace Conversions
             return foot * LengthConstValues.mm_foot;
         }
 
+        /// <summary>
+        /// Convert Millimeter to Inch
+        /// </summary>
+        /// <param name="millimeter"></param>
+        /// <returns>Inch value</returns>
+        public double MillimeterToInch(double millimeter)
+        {
+            return millimeter / LengthConstValues.mm_inch;
+        }
+
+        /// <summary>
+        /// Convert Inch to Millimeter
+        /// </summary>
+        /// <param name="inch"></param>
+        /// <returns>Millimeter value</returns>
+        public double InchToMillimeter(double inch)
+        {
+            return inch * LengthConstValues.mm_inch;
+        }
+
 
 
 
