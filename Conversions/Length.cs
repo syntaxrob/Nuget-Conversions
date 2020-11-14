@@ -705,7 +705,7 @@ namespace Conversions
         }
 
         /// <summary>
-        /// Convert Micrometers to Miles
+        /// Convert Micrometer to Mile
         /// </summary>
         /// <param name="micrometer"></param>
         /// <returns>Mile value</returns>
@@ -715,13 +715,33 @@ namespace Conversions
         }
 
         /// <summary>
-        /// Convert Miles to Micrometers
+        /// Convert Mile to Micrometer
         /// </summary>
         /// <param name="mile"></param>
         /// <returns>Micrometers value</returns>
         public double MileToMicrometer(double mile)
         {
             return mile * LengthConstValues.micro_mile;
+        }
+
+        /// <summary>
+        /// Convert Micrometer to Yard
+        /// </summary>
+        /// <param name="micrometer"></param>
+        /// <returns>Yard value</returns>
+        public double MicrometerToYard(double micrometer)
+        {
+            return micrometer / LengthConstValues.micro_yard;
+        }
+
+        /// <summary>
+        /// Convert Yard to Micrometer
+        /// </summary>
+        /// <param name="yard"></param>
+        /// <returns>Micrometer value</returns>
+        public double YardToMicrometer(double yard)
+        {
+            return yard * LengthConstValues.micro_yard;
         }
 
 
