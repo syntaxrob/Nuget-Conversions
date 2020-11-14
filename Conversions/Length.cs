@@ -624,6 +624,26 @@ namespace Conversions
             return yard * LengthConstValues.mm_yard;
         }
 
+        /// <summary>
+        /// Convert Millimeter to Foot
+        /// </summary>
+        /// <param name="millimeter"></param>
+        /// <returns>Foot value</returns>
+        public double MillimeterToFoot(double millimeter)
+        {
+            return millimeter / LengthConstValues.mm_foot;
+        }
+
+        /// <summary>
+        /// Convert Foot to Millimeter
+        /// </summary>
+        /// <param name="foot"></param>
+        /// <returns>Millimeter value</returns>
+        public double FootToMillimeter(double foot)
+        {
+            return foot * LengthConstValues.mm_foot;
+        }
+
 
 
 
