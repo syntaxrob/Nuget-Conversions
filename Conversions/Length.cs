@@ -1084,6 +1084,26 @@ namespace Conversions
             return nauticalmile * LengthConstValues.feet_nauticalmile;
         }
 
+        /// <summary>
+        /// Convert Inch to Nautical mile
+        /// </summary>
+        /// <param name="inch"></param>
+        /// <returns>Nautical mile value</returns>
+        public double InchToNauticalmile(double inch)
+        {
+            return inch / LengthConstValues.inch_nauticalmile;
+        }
+
+        /// <summary>
+        /// Convert Nautical mile to Inch
+        /// </summary>
+        /// <param name="nauticalmile"></param>
+        /// <returns>Inch value</returns>
+        public double NauticalmileToInch(double nauticalmile)
+        {
+            return nauticalmile * LengthConstValues.inch_nauticalmile;
+        }
+
 
 
     }
