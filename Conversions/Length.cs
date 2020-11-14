@@ -684,6 +684,26 @@ namespace Conversions
             return nauticalmile * LengthConstValues.mm_nauticalmile;
         }
 
+        /// <summary>
+        /// Convert Micrometer to Nanometer
+        /// </summary>
+        /// <param name="micrometer"></param>
+        /// <returns>Nanometer to Micrometer</returns>
+        public double MicrometerToNanometer(double micrometer)
+        {
+            return micrometer * LengthConstValues.micro_nanom;
+        }
+
+        /// <summary>
+        /// Convert Nanometer to Micrometer
+        /// </summary>
+        /// <param name="nanometer"></param>
+        /// <returns>Micrometer value</returns>
+        public double NanometerToMicrometer(double nanometer)
+        {
+            return nanometer / LengthConstValues.micro_nanom;
+        }
+
 
 
 
