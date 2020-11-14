@@ -924,6 +924,26 @@ namespace Conversions
             return yard / LengthConstValues.mile_yard;
         }
 
+        /// <summary>
+        /// Convert Mile to Foot
+        /// </summary>
+        /// <param name="mile"></param>
+        /// <returns>Foot value</returns>
+        public double MileToFoot(double mile)
+        {
+            return mile * LengthConstValues.mile_foot;
+        }
+
+        /// <summary>
+        /// Convert Foot to Mile
+        /// </summary>
+        /// <param name="foot"></param>
+        /// <returns>Mile value</returns>
+        public double FootToMile(double foot)
+        {
+            return foot / LengthConstValues.mile_foot;
+        }
+
 
 
 
