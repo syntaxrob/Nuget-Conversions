@@ -484,6 +484,26 @@ namespace Conversions
             return yard * LengthConstValues.cm_yard;
         }
 
+        /// <summary>
+        /// Convert Centimeter to Foot
+        /// </summary>
+        /// <param name="centimeter"></param>
+        /// <returns>Foot value</returns>
+        public double CentimeterToFoot(double centimeter)
+        {
+            return centimeter / LengthConstValues.cm_foot;
+        }
+
+        /// <summary>
+        /// Convert Foot to Centimeter
+        /// </summary>
+        /// <param name="foot"></param>
+        /// <returns>Centimeter value</returns>
+        public double FootToCentimeter(double foot)
+        {
+            return foot * LengthConstValues.cm_foot;
+        }
+
 
 
 
