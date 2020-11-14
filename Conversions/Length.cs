@@ -704,6 +704,26 @@ namespace Conversions
             return nanometer / LengthConstValues.micro_nanom;
         }
 
+        /// <summary>
+        /// Convert Micrometers to Miles
+        /// </summary>
+        /// <param name="micrometer"></param>
+        /// <returns>Mile value</returns>
+        public double MicrometerToMile(double micrometer)
+        {
+            return micrometer / LengthConstValues.micro_mile;
+        }
+
+        /// <summary>
+        /// Convert Miles to Micrometers
+        /// </summary>
+        /// <param name="mile"></param>
+        /// <returns>Micrometers value</returns>
+        public double MileToMicrometer(double mile)
+        {
+            return mile * LengthConstValues.micro_mile;
+        }
+
 
 
 
