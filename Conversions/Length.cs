@@ -404,6 +404,26 @@ namespace Conversions
             return millimeter / LengthConstValues.cm_mm;
         }
 
+        /// <summary>
+        /// Convert Centimeter to Micrometer
+        /// </summary>
+        /// <param name="centimeter"></param>
+        /// <returns>Micrometer value</returns>
+        public double CentimeterToMicrometer(double centimeter)
+        {
+            return centimeter * LengthConstValues.cm_microm;
+        }
+
+        /// <summary>
+        /// Convert Micrometer to Centimeter
+        /// </summary>
+        /// <param name="micrometer"></param>
+        /// <returns>Centimeter value</returns>
+        public double MicrometerToCentimeter(double micrometer)
+        {
+            return micrometer / LengthConstValues.cm_microm;
+        }
+
 
 
 
