@@ -864,6 +864,26 @@ namespace Conversions
             return foot * LengthConstValues.nano_foot;
         }
 
+        /// <summary>
+        /// Convert Nanometer to Inch
+        /// </summary>
+        /// <param name="nanometer"></param>
+        /// <returns>Inch value</returns>
+        public double NanometerToInch(double nanometer)
+        {
+            return nanometer / LengthConstValues.nano_inch;
+        }
+
+        /// <summary>
+        /// Convert Inch to Nanometer
+        /// </summary>
+        /// <param name="inch"></param>
+        /// <returns>Nanometer value</returns>
+        public double InchToNanometer(double inch)
+        {
+            return inch * LengthConstValues.nano_inch;
+        }
+
 
 
 
