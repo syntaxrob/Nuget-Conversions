@@ -324,6 +324,27 @@ namespace Conversions
             return yard / LengthConstValues.m_yard;
         }
 
+        /// <summary>
+        /// Convert Meter to Foot
+        /// </summary>
+        /// <param name="meter"></param>
+        /// <returns>Foot value</returns>
+        public double MeterToFoot(double meter)
+        {
+            return meter * LengthConstValues.m_foot;
+        }
+
+        /// <summary>
+        /// Convert Foot to Meter
+        /// </summary>
+        /// <param name="foot"></param>
+        /// <returns>Meter value</returns>
+        public double FootToMeter(double foot)
+        {
+            return foot / LengthConstValues.m_foot;
+        }
+
+
 
 
     }
