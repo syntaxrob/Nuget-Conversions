@@ -504,6 +504,26 @@ namespace Conversions
             return foot * LengthConstValues.cm_foot;
         }
 
+        /// <summary>
+        /// Convert Centimeter to Inch
+        /// </summary>
+        /// <param name="centimeter"></param>
+        /// <returns>Inch value</returns>
+        public double CentimeterToInch(double centimeter)
+        {
+            return centimeter / LengthConstValues.cm_inch;
+        }
+
+        /// <summary>
+        /// Convert Inch to Centimeter
+        /// </summary>
+        /// <param name="inch"></param>
+        /// <returns>Centimeter value</returns>
+        public double InchToCentimeter(double inch)
+        {
+            return inch * LengthConstValues.cm_inch;
+        }
+
 
 
 
