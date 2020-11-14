@@ -444,6 +444,26 @@ namespace Conversions
             return nanometer / LengthConstValues.cm_nanom;
         }
 
+        /// <summary>
+        /// Convert Centimeter to Mile
+        /// </summary>
+        /// <param name="centimeter"></param>
+        /// <returns>Mile value</returns>
+        public double CentimeterToMile(double centimeter)
+        {
+            return centimeter / LengthConstValues.cm_mile;
+        }
+
+        /// <summary>
+        /// Convert Mile to Centimeter
+        /// </summary>
+        /// <param name="mile"></param>
+        /// <returns>Centimeter value</returns>
+        public double MileToCentimeter(double mile)
+        {
+            return mile * LengthConstValues.cm_mile;
+        }
+
 
 
 
