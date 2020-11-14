@@ -304,6 +304,26 @@ namespace Conversions
             return mile * LengthConstValues.m_mile;
         }
 
+        /// <summary>
+        /// Convert Meter to Yard
+        /// </summary>
+        /// <param name="meter"></param>
+        /// <returns>Yard value</returns>
+        public double MeterToYard(double meter)
+        {
+            return meter * LengthConstValues.m_yard;
+        }
+
+        /// <summary>
+        /// Convert Yard To Meter
+        /// </summary>
+        /// <param name="yard"></param>
+        /// <returns>Meter value</returns>
+        public double YardToMeter(double yard)
+        {
+            return yard / LengthConstValues.m_yard;
+        }
+
 
 
     }
