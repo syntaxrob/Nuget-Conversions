@@ -344,6 +344,26 @@ namespace Conversions
             return foot / LengthConstValues.m_foot;
         }
 
+        /// <summary>
+        /// Convert Meter to Inch
+        /// </summary>
+        /// <param name="meter"></param>
+        /// <returns>Inch value</returns>
+        public double MeterToInch(double meter)
+        {
+            return meter * LengthConstValues.m_inch;
+        }
+
+        /// <summary>
+        /// Convert Inch to Meter
+        /// </summary>
+        /// <param name="inch"></param>
+        /// <returns>Meter value</returns>
+        public double InchToMeter(double inch)
+        {
+            return inch / LengthConstValues.m_inch;
+        }
+
 
 
 
