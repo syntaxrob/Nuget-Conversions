@@ -604,6 +604,26 @@ namespace Conversions
             return mile * LengthConstValues.mm_mile;
         }
 
+        /// <summary>
+        /// Convert Millimeter to Yard
+        /// </summary>
+        /// <param name="millimeter"></param>
+        /// <returns>Yard value</returns>
+        public double MillimeterToYard(double millimeter)
+        {
+            return millimeter / LengthConstValues.mm_yard;
+        }
+
+        /// <summary>
+        /// Convert Yard to Millimeter
+        /// </summary>
+        /// <param name="yard"></param>
+        /// <returns>Millimeter value</returns>
+        public double YardToMillimeter(double yard)
+        {
+            return yard * LengthConstValues.mm_yard;
+        }
+
 
 
 
