@@ -544,6 +544,26 @@ namespace Conversions
             return nauticalmile * LengthConstValues.cm_nauticalmile;
         }
 
+        /// <summary>
+        /// Convert Millimeter to Micrometer
+        /// </summary>
+        /// <param name="millimeter"></param>
+        /// <returns>Micrometer value</returns>
+        public double MillimeterToMicrometer(double millimeter)
+        {
+            return millimeter * LengthConstValues.mm_microm;
+        }
+
+        /// <summary>
+        /// Convert Micrometer to Millimeter
+        /// </summary>
+        /// <param name="micrometer"></param>
+        /// <returns>Millimeter value</returns>
+        public double MicrometerToMillimeter(double micrometer)
+        {
+            return micrometer / LengthConstValues.mm_microm;
+        }
+
 
 
 
