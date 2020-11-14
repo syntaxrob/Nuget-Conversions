@@ -1,0 +1,9 @@
+D:\Education\Nugets\Conversions\Conversions\bin\Debug\netcoreapp3.1\Conversions.deps.json
+D:\Education\Nugets\Conversions\Conversions\bin\Debug\netcoreapp3.1\Conversions.dll
+D:\Education\Nugets\Conversions\Conversions\bin\Debug\netcoreapp3.1\Conversions.pdb
+D:\Education\Nugets\Conversions\Conversions\obj\Debug\netcoreapp3.1\Conversions.csprojAssemblyReference.cache
+D:\Education\Nugets\Conversions\Conversions\obj\Debug\netcoreapp3.1\Conversions.AssemblyInfoInputs.cache
+D:\Education\Nugets\Conversions\Conversions\obj\Debug\netcoreapp3.1\Conversions.AssemblyInfo.cs
+D:\Education\Nugets\Conversions\Conversions\obj\Debug\netcoreapp3.1\Conversions.csproj.CoreCompileInputs.cache
+D:\Education\Nugets\Conversions\Conversions\obj\Debug\netcoreapp3.1\Conversions.dll
+D:\Education\Nugets\Conversions\Conversions\obj\Debug\netcoreapp3.1\Conversions.pdb

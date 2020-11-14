@@ -9,7 +9,7 @@ namespace Conversions
         /// </summary>
         /// <param name="kilometer"></param>
         /// <returns>Meter value</returns>
-        public double KilometerToMeter(double kilometer)
+        public static double KilometerToMeter(double kilometer)
         {
             return kilometer * LengthConstValues.km_m;
         }
