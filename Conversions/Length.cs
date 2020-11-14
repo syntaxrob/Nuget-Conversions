@@ -1064,6 +1064,26 @@ namespace Conversions
             return inch / LengthConstValues.feet_inch;
         }
 
+        /// <summary>
+        /// Convert Foot to Nautical mile
+        /// </summary>
+        /// <param name="foot"></param>
+        /// <returns>Nautical mile value</returns>
+        public double FootToNauticalmile(double foot)
+        {
+            return foot / LengthConstValues.feet_nauticalmile;
+        }
+
+        /// <summary>
+        /// Convert Nautical mile to foot
+        /// </summary>
+        /// <param name="nauticalmile"></param>
+        /// <returns>Foot value</returns>
+        public double NauticalmileToFoot(double nauticalmile)
+        {
+            return nauticalmile * LengthConstValues.feet_nauticalmile;
+        }
+
 
 
     }
