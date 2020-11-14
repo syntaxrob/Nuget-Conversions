@@ -204,7 +204,27 @@ namespace Conversions
             return nauticalmile * LengthConstValues.km_nauticalmile;
         }
 
+        /// <summary>
+        /// Convert Meters to Centimeters
+        /// </summary>
+        /// <param name="meter"></param>
+        /// <returns>Centimeter values</returns>
+        public double MeterToCentimeter(double meter)
+        {
+            return meter * LengthConstValues.m_cm;
+        }
 
-        
+        /// <summary>
+        /// Convert Centimeter to Meter
+        /// </summary>
+        /// <param name="centimeter"></param>
+        /// <returns>Meter value</returns>
+        public double CentimeterToMeter(double centimeter)
+        {
+            return centimeter / LengthConstValues.m_cm;
+        }
+
+
+
     }
 }
