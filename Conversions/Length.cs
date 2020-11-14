@@ -664,6 +664,26 @@ namespace Conversions
             return inch * LengthConstValues.mm_inch;
         }
 
+        /// <summary>
+        /// Convert Millimeter to Nautical Mile
+        /// </summary>
+        /// <param name="millimeter"></param>
+        /// <returns>Nautical Mile value</returns>
+        public double MillimeterToNauticalmile(double millimeter)
+        {
+            return millimeter / LengthConstValues.mm_nauticalmile;
+        }
+
+        /// <summary>
+        /// Convert Nautical Mile to Millimeter
+        /// </summary>
+        /// <param name="nauticalmile"></param>
+        /// <returns>Millimeter value</returns>
+        public double NauticalmileToMillimeter(double nauticalmile)
+        {
+            return nauticalmile * LengthConstValues.mm_nauticalmile;
+        }
+
 
 
 
