@@ -364,6 +364,26 @@ namespace Conversions
             return inch / LengthConstValues.m_inch;
         }
 
+        /// <summary>
+        /// Convert Meter to Nauticalmile
+        /// </summary>
+        /// <param name="meter"></param>
+        /// <returns>Nauticalmile value</returns>
+        public double MeterToNauticalmile(double meter)
+        {
+            return meter / LengthConstValues.m_nauticalmile;
+        }
+
+        /// <summary>
+        /// Convert Nauticalmile to Meter
+        /// </summary>
+        /// <param name="nmile"></param>
+        /// <returns>Meter value</returns>
+        public double NauticalmileToMeter(double nmile)
+        {
+            return nmile * LengthConstValues.m_nauticalmile;
+        }
+
 
 
 
