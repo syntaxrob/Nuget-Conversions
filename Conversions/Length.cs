@@ -904,6 +904,26 @@ namespace Conversions
             return nauticalmile * LengthConstValues.nano_nauticalmile;
         }
 
+        /// <summary>
+        /// Convert Mile to Yard
+        /// </summary>
+        /// <param name="mile"></param>
+        /// <returns>Yard value</returns>
+        public double MileToYard(double mile)
+        {
+            return mile * LengthConstValues.mile_yard;
+        }
+
+        /// <summary>
+        /// Convert Yard to Mile
+        /// </summary>
+        /// <param name="yard"></param>
+        /// <returns>Mile value</returns>
+        public double YardToMile(double yard)
+        {
+            return yard / LengthConstValues.mile_yard;
+        }
+
 
 
 
