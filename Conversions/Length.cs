@@ -1024,6 +1024,26 @@ namespace Conversions
             return inch / LengthConstValues.yard_inch;
         }
 
+        /// <summary>
+        /// Convert Yard to Nautical mile
+        /// </summary>
+        /// <param name="yard"></param>
+        /// <returns>Nautical mile value</returns>
+        public double YardToNauticalmile(double yard)
+        {
+            return yard / LengthConstValues.yard_nauticalmile;
+        }
+
+        /// <summary>
+        /// Convert Nautical mile to Yard
+        /// </summary>
+        /// <param name="nauticalmile"></param>
+        /// <returns>Yard value</returns>
+        public double NauticalmileToYard(double nauticalmile)
+        {
+            return nauticalmile * LengthConstValues.yard_nauticalmile;
+        }
+
 
 
     }
