@@ -124,6 +124,25 @@ namespace Conversions
             return mile * LengthConstValues.km_mile;
         }
 
+        /// <summary>
+        /// Convert Kilometer to Yard
+        /// </summary>
+        /// <param name="kilometer"></param>
+        /// <returns>Yard value</returns>
+        public double KilometerToYard(double kilometer)
+        {
+            return kilometer * LengthConstValues.km_yard;
+        }
+
+        /// <summary>
+        /// Convert Yard to Kilometer
+        /// </summary>
+        /// <param name="yard"></param>
+        /// <returns>Kilometer value</returns>
+        public double YardToKilometer(double yard)
+        {
+            return yard / LengthConstValues.km_yard;
+        }
 
 
         
