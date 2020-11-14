@@ -164,7 +164,25 @@ namespace Conversions
             return foot / LengthConstValues.km_foot;
         }
 
+        /// <summary>
+        /// Convert Kilometer to Inch
+        /// </summary>
+        /// <param name="kilometer"></param>
+        /// <returns>Inch value</returns>
+        public double KilometerToInch(double kilometer)
+        {
+            return kilometer * LengthConstValues.km_inch;
+        }
 
+        /// <summary>
+        /// Convert Inch to Kilometer
+        /// </summary>
+        /// <param name="kilometer"></param>
+        /// <returns>Inch value</returns>
+        public double InchToKilometer(double kilometer)
+        {
+            return kilometer / LengthConstValues.km_inch;
+        }
 
         
     }
