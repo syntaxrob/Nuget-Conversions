@@ -524,6 +524,26 @@ namespace Conversions
             return inch * LengthConstValues.cm_inch;
         }
 
+        /// <summary>
+        /// Convert Centimeter to Nautical Mile
+        /// </summary>
+        /// <param name="centimeter"></param>
+        /// <returns>Nautical mile value</returns>
+        public double CentimeterToNauticalMile(double centimeter)
+        {
+            return centimeter / LengthConstValues.cm_nauticalmile;
+        }
+
+        /// <summary>
+        /// Convert Nautical mile to Centimeter
+        /// </summary>
+        /// <param name="nauticalmile"></param>
+        /// <returns>Centimeter value</returns>
+        public double NauticalMileToCentimeter(double nauticalmile)
+        {
+            return nauticalmile * LengthConstValues.cm_nauticalmile;
+        }
+
 
 
 
