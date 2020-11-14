@@ -784,6 +784,26 @@ namespace Conversions
             return inch * LengthConstValues.micro_inch;
         }
 
+        /// <summary>
+        /// Convert Micrometer to Nautical Mile
+        /// </summary>
+        /// <param name="micrometer"></param>
+        /// <returns>Nautical mile value</returns>
+        public double MicrometerToNauticalmile(double micrometer)
+        {
+            return micrometer / LengthConstValues.micro_nauticalmile;
+        }
+
+        /// <summary>
+        /// Convert Nautical Mile to Micrometer
+        /// </summary>
+        /// <param name="nauticalmile"></param>
+        /// <returns>Micrometer value</returns>
+        public double NauticalmileToMicrometer(double nauticalmile)
+        {
+            return nauticalmile * LengthConstValues.micro_nauticalmile;
+        }
+
 
 
 
