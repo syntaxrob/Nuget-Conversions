@@ -844,6 +844,26 @@ namespace Conversions
             return yard * LengthConstValues.nano_yard;
         }
 
+        /// <summary>
+        /// Convert Nanometer to Foot
+        /// </summary>
+        /// <param name="nanometer"></param>
+        /// <returns>Foot value</returns>
+        public double NanometerToFoot(double nanometer)
+        {
+            return nanometer / LengthConstValues.nano_foot;
+        }
+
+        /// <summary>
+        /// Convert Foot to Nanometer
+        /// </summary>
+        /// <param name="foot"></param>
+        /// <returns>Nanometer value</returns>
+        public double FootToNanometer(double foot)
+        {
+            return foot * LengthConstValues.nano_foot;
+        }
+
 
 
 
