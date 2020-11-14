@@ -259,7 +259,7 @@ namespace Conversions
         /// </summary>
         /// <param name="micrometer"></param>
         /// <returns>Meter value</returns>
-        public double MicrometertoMeter(double micrometer)
+        public double MicrometerToMeter(double micrometer)
         {
             return micrometer / LengthConstValues.m_microm;
         }
@@ -269,7 +269,7 @@ namespace Conversions
         /// </summary>
         /// <param name="meter"></param>
         /// <returns>Nanometer value</returns>
-        public double MeterToNanoMeter(double meter)
+        public double MeterToNanometer(double meter)
         {
             return meter * LengthConstValues.m_nanom;
         }
@@ -282,6 +282,26 @@ namespace Conversions
         public double NanometerToMeter(double nanometer)
         {
             return nanometer / LengthConstValues.m_nanom;
+        }
+
+        /// <summary>
+        /// Convert Meter to Mile
+        /// </summary>
+        /// <param name="meter"></param>
+        /// <returns>Mile value</returns>
+        public double MeterToMile(double meter)
+        {
+            return meter / LengthConstValues.m_mile;
+        }
+
+        /// <summary>
+        /// Convert Mile to Meter
+        /// </summary>
+        /// <param name="mile"></param>
+        /// <returns>Meter value</returns>
+        public double MileToMeter(double mile)
+        {
+            return mile * LengthConstValues.m_mile;
         }
 
 
