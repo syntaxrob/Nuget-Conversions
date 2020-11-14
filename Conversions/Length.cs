@@ -764,6 +764,26 @@ namespace Conversions
             return foot * LengthConstValues.micro_foot;
         }
 
+        /// <summary>
+        /// Convert Micrometer to Inch
+        /// </summary>
+        /// <param name="micrometer"></param>
+        /// <returns>Inch value</returns>
+        public double MicrometerToInch(double micrometer)
+        {
+            return micrometer / LengthConstValues.micro_inch;
+        }
+
+        /// <summary>
+        /// Convert Inch to Micrometer
+        /// </summary>
+        /// <param name="inch"></param>
+        /// <returns>Micrometer value</returns>
+        public double InchToMicrometer(double inch)
+        {
+            return inch * LengthConstValues.micro_inch;
+        }
+
 
 
 
