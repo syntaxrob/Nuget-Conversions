@@ -1,13 +1,13 @@
 # Units.Conversions Nuget
 This is the project page for the Nuget package **Units.Conversions** which, once installed, allows you to convert the following units:
 
-| Length  |  Temperature |
-| ----------- | --------------- |
-| Kilometers  | Celcius         |
-| Meters      | Farenheit       |
-| Centimerters| Kelvin          |
-| Millimeters |                 |
-| Micrometers |
+| Length      |  Temperature    | Speed               |
+| ----------- | --------------- | ------------------- |
+| Kilometers  | Celcius         | Miles per hour      |
+| Meters      | Farenheit       | Feet per second     |
+| Centimerters| Kelvin          | Meters per second   |
+| Millimeters |                 | Kilometers per hour |
+| Micrometers |                 | Knots               |
 | Nanometers  |
 | Miles       |
 | Yards       |
@@ -18,11 +18,13 @@ This is the project page for the Nuget package **Units.Conversions** which, once
 To use this package, add the relevant `using` statements:
 * `using Conversions` - which gives access to the `Length` property
 * `using Conversions.UnitsOfTemperature` - which gives access to the `Temperature` property
+* `using Conversions.UnitsOfSpeed` - which gives access to the `Speed` property
 
 For example:
 ```
 using Conversions
 using Conversions.UnitsOfTemperature;
+using Conversions.UnitsOfSpeed;
 
 namespace SampleApp
 {
@@ -37,6 +39,10 @@ namespace SampleApp
             Console.WriteLine("Convert 10 degrees C to Farenheit");
             var F = Temperature.CelciusToFarenheit(10);
             Console.WriteLine(F);
+            
+            Console.WriteLine("Convert 60 mph to Kph");
+            var kph = Speed.MilesPerHourToKilometersPerHour(60);
+            Console.WriteLine(kph);
         }
     }
 }
