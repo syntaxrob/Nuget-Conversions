@@ -79,5 +79,13 @@ namespace UnitTests
             double actual = Speed.MetersPerSecondToKnots(1);
             Assert.Equal(expected, actual);
         }
+
+        [Fact]
+        public void KphAndKnots()
+        {
+            double expected = 0.5399568034557235;
+            double actual = Speed.KilometersPerHourToKnots(1);
+            Assert.Equal(expected, actual);
+        }
     }
 }

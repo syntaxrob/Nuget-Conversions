@@ -100,25 +100,124 @@ namespace Conversions.UnitsOfSpeed
             return fps / ConstValues.Fpsknot;
         }
 
+        /// <summary>
+        /// Convert Meters per second to Miles per hour
+        /// </summary>
+        /// <param name="mps"></param>
+        /// <returns>Miles per hour</returns>
         public static double MetersPerSecondToMilesPerHour(double mps)
         {
             return mps * ConstValues.Mphmps;
         }
 
+        /// <summary>
+        /// Convert Meters per second to Feet per second
+        /// </summary>
+        /// <param name="mps"></param>
+        /// <returns>Feet per second</returns>
         public static double MetersPerSecondToFeetPerSecond(double mps)
         {
             return mps * ConstValues.Fpsmps;
         }
 
+        /// <summary>
+        /// Convert Meters per second to Kilometers per hour
+        /// </summary>
+        /// <param name="mps"></param>
+        /// <returns>Kilometers per hour</returns>
         public static double MetersPerSecondToKilometersPerHour(double mps)
         {
             return mps * ConstValues.Mpskph;
         }
 
+        /// <summary>
+        /// Convert Meters per second to Knots
+        /// </summary>
+        /// <param name="mps"></param>
+        /// <returns>Knots</returns>
         public static double MetersPerSecondToKnots(double mps)
         {
             return mps * ConstValues.Mpsknot;
         }
 
+        /// <summary>
+        /// Convert Kilometers per hour to Miles per hour
+        /// </summary>
+        /// <param name="kph"></param>
+        /// <returns>Miles per hour</returns>
+        public static double KilometersPerHourToMilesPerHour(double kph)
+        {
+            return kph / ConstValues.Mphkph;
+        }
+
+        /// <summary>
+        /// Convert Kilometers per hour to Feet per second
+        /// </summary>
+        /// <param name="kph"></param>
+        /// <returns></returns>
+        public static double KilometersPerHourToFeetPerSecond(double kph)
+        {
+            return kph / ConstValues.Fpskph;
+        }
+
+        /// <summary>
+        /// Convert Kilometers per hour to Meters per second
+        /// </summary>
+        /// <param name="kph"></param>
+        /// <returns></returns>
+        public static double KilometersPerHourToMetersPerSecond(double kph)
+        {
+            return kph / ConstValues.Mpskph;
+        }
+
+        /// <summary>
+        /// Convert Kilometers per hour to Knots
+        /// </summary>
+        /// <param name="kph"></param>
+        /// <returns></returns>
+        public static double KilometersPerHourToKnots(double kph)
+        {
+            return kph / ConstValues.Kphknot;
+        }
+
+        /// <summary>
+        /// Convert Knots to Kilometers per hour
+        /// </summary>
+        /// <param name="knots"></param>
+        /// <returns>Kilometers per hour</returns>
+        public static double KnotsToMilesPerHour(double knots)
+        {
+            return knots * ConstValues.Mphknot;
+        }
+        
+        /// <summary>
+        /// Convert Knots to Feet per second
+        /// </summary>
+        /// <param name="knots"></param>
+        /// <returns>Feet per second</returns>
+        public static double KnotsToFeetPerSecond(double knots)
+        {
+            return knots * ConstValues.Fpsknot;
+        }
+
+        /// <summary>
+        /// Convert Knots to Meters per second
+        /// </summary>
+        /// <param name="knots"></param>
+        /// <returns>Meters per second</returns>
+        public static double KnotsToMetersPerSecond(double knots)
+        {
+            return knots / ConstValues.Mpsknot;
+        }
+
+        /// <summary>
+        /// Convert Knots to Kilometers per hour
+        /// </summary>
+        /// <param name="knots"></param>
+        /// <returns></returns>
+        public static double KnotsToKilometersPerHour(double knots)
+        {
+            return knots * ConstValues.Kphknot;
+        }
     }
 }
