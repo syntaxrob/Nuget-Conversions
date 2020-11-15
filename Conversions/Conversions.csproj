@@ -4,17 +4,17 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <Copyright>2020</Copyright>
     <Authors>Rob Penn</Authors>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <PackageProjectUrl>https://github.com/syntaxrob/Nuget-Conversions</PackageProjectUrl>
     <Company />
     <PackageId>Units.Conversions</PackageId>
     <Product>Unit Conversion Tool</Product>
-    <Description>Convert different units of length (metic and imperial are supported)</Description>
+    <Description>Convert different units of length and temperature (metic and imperial are supported)</Description>
     <PackageIcon>icon.png</PackageIcon>
-    <PackageTags>conversions convert length metric imperial miles kilometers centimeters nautical miles millimeters yards feet inches micrometers nanometers</PackageTags>
+    <PackageTags>conversions convert length metric imperial miles kilometers centimeters nautical miles millimeters yards feet inches micrometers nanometers celcius farenheit kelvin</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageReleaseNotes>This is the initial release containing conversions of length</PackageReleaseNotes>
+    <PackageReleaseNotes>Temperature unit added for Celcius, Farenheit and Kelvin</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
 
