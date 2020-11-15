@@ -11,7 +11,7 @@ namespace Conversions
         /// <returns>Meter value</returns>
         public static double KilometerToMeter(double kilometer)
         {
-            return kilometer * LengthConstValues.km_m;
+            return kilometer * LengthConstValues.KmM;
         }
 
         /// <summary>
@@ -21,7 +21,7 @@ namespace Conversions
         /// <returns>Kilometer value</returns>
         public static double MeterToKilometer(double meter)
         {
-            return meter / LengthConstValues.km_m;
+            return meter / LengthConstValues.KmM;
         }
 
         /// <summary>
@@ -31,7 +31,7 @@ namespace Conversions
         /// <returns>Centimeter value</returns>
         public static double KilometerToCentimeter(double kilometer)
         {
-            return kilometer * LengthConstValues.km_cm;
+            return kilometer * LengthConstValues.KmCm;
         }
 
         /// <summary>
@@ -41,7 +41,7 @@ namespace Conversions
         /// <returns>Kilometer value</returns>
         public static double CentimeterToKilometer(double centimeter)
         {
-            return centimeter / LengthConstValues.km_cm;
+            return centimeter / LengthConstValues.KmCm;
         }
 
         /// <summary>
@@ -51,7 +51,7 @@ namespace Conversions
         /// <returns>Millimeter value</returns>
         public static double KilometerToMilliimeter(double kilometer)
         {
-            return kilometer * LengthConstValues.km_mm;
+            return kilometer * LengthConstValues.KmMm;
         }
 
         /// <summary>
@@ -61,7 +61,7 @@ namespace Conversions
         /// <returns>Kilometer value</returns>
         public static double MillimeterToKilometer(double millimeter)
         {
-            return millimeter / LengthConstValues.km_mm;
+            return millimeter / LengthConstValues.KmMm;
         }
 
         /// <summary>
@@ -71,7 +71,7 @@ namespace Conversions
         /// <returns>Micrometer value</returns>
         public static double KilometerToMicrometer(double kilometer)
         {
-            return kilometer * LengthConstValues.km_microm;
+            return kilometer * LengthConstValues.KmMicrom;
         }
 
         /// <summary>
@@ -81,7 +81,7 @@ namespace Conversions
         /// <returns>Kilometer value</returns>
         public static double MicrometerToKilometer(double micrometer)
         {
-            return micrometer / LengthConstValues.km_microm;
+            return micrometer / LengthConstValues.KmMicrom;
         }
 
         /// <summary>
@@ -91,7 +91,7 @@ namespace Conversions
         /// <returns>Nanometer value</returns>
         public static double KilometerToNanometer(double kilometer)
         {
-            return kilometer * LengthConstValues.km_nanom;
+            return kilometer * LengthConstValues.KmNanom;
         }
 
         /// <summary>
@@ -101,7 +101,7 @@ namespace Conversions
         /// <returns>Kilometers value</returns>
         public static double NanometerToKilometer(double nanometer)
         {
-            return nanometer / LengthConstValues.km_nanom;
+            return nanometer / LengthConstValues.KmNanom;
         }
 
         /// <summary>
@@ -111,7 +111,7 @@ namespace Conversions
         /// <returns>Mile value</returns>
         public static double KilometerToMile(double kilometer)
         {
-            return kilometer / LengthConstValues.km_mile;
+            return kilometer / LengthConstValues.KmMile;
         }
 
         /// <summary>
@@ -121,7 +121,7 @@ namespace Conversions
         /// <returns>Kilometer value</returns>
         public static double MileToKilometer(double mile)
         {
-            return mile * LengthConstValues.km_mile;
+            return mile * LengthConstValues.KmMile;
         }
 
         /// <summary>
@@ -131,7 +131,7 @@ namespace Conversions
         /// <returns>Yard value</returns>
         public static double KilometerToYard(double kilometer)
         {
-            return kilometer * LengthConstValues.km_yard;
+            return kilometer * LengthConstValues.KmYard;
         }
 
         /// <summary>
@@ -141,7 +141,7 @@ namespace Conversions
         /// <returns>Kilometer value</returns>
         public static double YardToKilometer(double yard)
         {
-            return yard / LengthConstValues.km_yard;
+            return yard / LengthConstValues.KmYard;
         }
 
         /// <summary>
@@ -151,7 +151,7 @@ namespace Conversions
         /// <returns>Foot value</returns>
         public static double KilometerToFoot(double kilometer)
         {
-            return kilometer * LengthConstValues.km_foot;
+            return kilometer * LengthConstValues.KmFoot;
         }
 
         /// <summary>
@@ -161,7 +161,7 @@ namespace Conversions
         /// <returns>Kilometer value</returns>
         public static double FootToKiloMeter(double foot)
         {
-            return foot / LengthConstValues.km_foot;
+            return foot / LengthConstValues.KmFoot;
         }
 
         /// <summary>
@@ -171,7 +171,7 @@ namespace Conversions
         /// <returns>Inch value</returns>
         public static double KilometerToInch(double kilometer)
         {
-            return kilometer * LengthConstValues.km_inch;
+            return kilometer * LengthConstValues.KmInch;
         }
 
         /// <summary>
@@ -181,7 +181,7 @@ namespace Conversions
         /// <returns>Inch value</returns>
         public static double InchToKilometer(double kilometer)
         {
-            return kilometer / LengthConstValues.km_inch;
+            return kilometer / LengthConstValues.KmInch;
         }
 
         /// <summary>
@@ -191,7 +191,7 @@ namespace Conversions
         /// <returns>Nautical mile value</returns>
         public static double KilometerToNauticalMile(double kilometer)
         {
-            return kilometer / LengthConstValues.km_nauticalmile;
+            return kilometer / LengthConstValues.KmNauticalmile;
         }
 
         /// <summary>
@@ -201,7 +201,7 @@ namespace Conversions
         /// <returns>Kilometer value</returns>
         public static double NauticalMileToKilometer(double nauticalmile)
         {
-            return nauticalmile * LengthConstValues.km_nauticalmile;
+            return nauticalmile * LengthConstValues.KmNauticalmile;
         }
 
         /// <summary>
@@ -211,7 +211,7 @@ namespace Conversions
         /// <returns>Centimeter values</returns>
         public static double MeterToCentimeter(double meter)
         {
-            return meter * LengthConstValues.m_cm;
+            return meter * LengthConstValues.MCm;
         }
 
         /// <summary>
@@ -221,7 +221,7 @@ namespace Conversions
         /// <returns>Meter value</returns>
         public static double CentimeterToMeter(double centimeter)
         {
-            return centimeter / LengthConstValues.m_cm;
+            return centimeter / LengthConstValues.MCm;
         }
 
         /// <summary>
@@ -231,7 +231,7 @@ namespace Conversions
         /// <returns>Millimeter value</returns>
         public static double MeterToMillimeter(double meter)
         {
-            return meter * LengthConstValues.m_mm;
+            return meter * LengthConstValues.MMm;
         }
 
         /// <summary>
@@ -241,7 +241,7 @@ namespace Conversions
         /// <returns>Meter value</returns>
         public static double MillimeterToMeter(double millimeter)
         {
-            return millimeter * LengthConstValues.m_mm;
+            return millimeter * LengthConstValues.MMm;
         }
 
         /// <summary>
@@ -251,7 +251,7 @@ namespace Conversions
         /// <returns>Micrometer value</returns>
         public static double MeterToMicrometer(double meter)
         {
-            return meter * LengthConstValues.m_microm;
+            return meter * LengthConstValues.MMicrom;
         }
 
         /// <summary>
@@ -261,7 +261,7 @@ namespace Conversions
         /// <returns>Meter value</returns>
         public static double MicrometerToMeter(double micrometer)
         {
-            return micrometer / LengthConstValues.m_microm;
+            return micrometer / LengthConstValues.MMicrom;
         }
 
         /// <summary>
@@ -271,7 +271,7 @@ namespace Conversions
         /// <returns>Nanometer value</returns>
         public static double MeterToNanometer(double meter)
         {
-            return meter * LengthConstValues.m_nanom;
+            return meter * LengthConstValues.MNanom;
         }
 
         /// <summary>
@@ -281,7 +281,7 @@ namespace Conversions
         /// <returns>Meter value</returns>
         public static double NanometerToMeter(double nanometer)
         {
-            return nanometer / LengthConstValues.m_nanom;
+            return nanometer / LengthConstValues.MNanom;
         }
 
         /// <summary>
@@ -291,7 +291,7 @@ namespace Conversions
         /// <returns>Mile value</returns>
         public static double MeterToMile(double meter)
         {
-            return meter / LengthConstValues.m_mile;
+            return meter / LengthConstValues.MMile;
         }
 
         /// <summary>
@@ -301,7 +301,7 @@ namespace Conversions
         /// <returns>Meter value</returns>
         public static double MileToMeter(double mile)
         {
-            return mile * LengthConstValues.m_mile;
+            return mile * LengthConstValues.MMile;
         }
 
         /// <summary>
@@ -311,7 +311,7 @@ namespace Conversions
         /// <returns>Yard value</returns>
         public static double MeterToYard(double meter)
         {
-            return meter * LengthConstValues.m_yard;
+            return meter * LengthConstValues.MYard;
         }
 
         /// <summary>
@@ -321,7 +321,7 @@ namespace Conversions
         /// <returns>Meter value</returns>
         public static double YardToMeter(double yard)
         {
-            return yard / LengthConstValues.m_yard;
+            return yard / LengthConstValues.MYard;
         }
 
         /// <summary>
@@ -331,7 +331,7 @@ namespace Conversions
         /// <returns>Foot value</returns>
         public static double MeterToFoot(double meter)
         {
-            return meter * LengthConstValues.m_foot;
+            return meter * LengthConstValues.MFoot;
         }
 
         /// <summary>
@@ -341,7 +341,7 @@ namespace Conversions
         /// <returns>Meter value</returns>
         public static double FootToMeter(double foot)
         {
-            return foot / LengthConstValues.m_foot;
+            return foot / LengthConstValues.MFoot;
         }
 
         /// <summary>
@@ -351,7 +351,7 @@ namespace Conversions
         /// <returns>Inch value</returns>
         public static double MeterToInch(double meter)
         {
-            return meter * LengthConstValues.m_inch;
+            return meter * LengthConstValues.MInch;
         }
 
         /// <summary>
@@ -361,7 +361,7 @@ namespace Conversions
         /// <returns>Meter value</returns>
         public static double InchToMeter(double inch)
         {
-            return inch / LengthConstValues.m_inch;
+            return inch / LengthConstValues.MInch;
         }
 
         /// <summary>
@@ -371,7 +371,7 @@ namespace Conversions
         /// <returns>Nauticalmile value</returns>
         public static double MeterToNauticalmile(double meter)
         {
-            return meter / LengthConstValues.m_nauticalmile;
+            return meter / LengthConstValues.MNauticalmile;
         }
 
         /// <summary>
@@ -381,7 +381,7 @@ namespace Conversions
         /// <returns>Meter value</returns>
         public static double NauticalmileToMeter(double nmile)
         {
-            return nmile * LengthConstValues.m_nauticalmile;
+            return nmile * LengthConstValues.MNauticalmile;
         }
 
         /// <summary>
@@ -391,7 +391,7 @@ namespace Conversions
         /// <returns>Millimeter value</returns>
         public static double CentimeterToMillimeter(double centimeter)
         {
-            return centimeter * LengthConstValues.cm_mm;
+            return centimeter * LengthConstValues.CmMm;
         }
 
         /// <summary>
@@ -401,7 +401,7 @@ namespace Conversions
         /// <returns>Centimeter value</returns>
         public static double MillimeterToCentimeter(double millimeter)
         {
-            return millimeter / LengthConstValues.cm_mm;
+            return millimeter / LengthConstValues.CmMm;
         }
 
         /// <summary>
@@ -411,7 +411,7 @@ namespace Conversions
         /// <returns>Micrometer value</returns>
         public static double CentimeterToMicrometer(double centimeter)
         {
-            return centimeter * LengthConstValues.cm_microm;
+            return centimeter * LengthConstValues.CmMicrom;
         }
 
         /// <summary>
@@ -421,7 +421,7 @@ namespace Conversions
         /// <returns>Centimeter value</returns>
         public static double MicrometerToCentimeter(double micrometer)
         {
-            return micrometer / LengthConstValues.cm_microm;
+            return micrometer / LengthConstValues.CmMicrom;
         }
 
         /// <summary>
@@ -431,7 +431,7 @@ namespace Conversions
         /// <returns>Nanometer value</returns>
         public static double CentimeterToNanometer(double centimeter)
         {
-            return centimeter * LengthConstValues.cm_nanom;
+            return centimeter * LengthConstValues.CmNanom;
         }
 
         /// <summary>
@@ -441,7 +441,7 @@ namespace Conversions
         /// <returns>Centimeter value</returns>
         public static double NanometerToCentimeter(double nanometer)
         {
-            return nanometer / LengthConstValues.cm_nanom;
+            return nanometer / LengthConstValues.CmNanom;
         }
 
         /// <summary>
@@ -451,7 +451,7 @@ namespace Conversions
         /// <returns>Mile value</returns>
         public static double CentimeterToMile(double centimeter)
         {
-            return centimeter / LengthConstValues.cm_mile;
+            return centimeter / LengthConstValues.CmMile;
         }
 
         /// <summary>
@@ -461,7 +461,7 @@ namespace Conversions
         /// <returns>Centimeter value</returns>
         public static double MileToCentimeter(double mile)
         {
-            return mile * LengthConstValues.cm_mile;
+            return mile * LengthConstValues.CmMile;
         }
 
         /// <summary>
@@ -471,7 +471,7 @@ namespace Conversions
         /// <returns>Yard value</returns>
         public static double CentimeterToYard(double centimeter)
         {
-            return centimeter / LengthConstValues.cm_yard;
+            return centimeter / LengthConstValues.CmYard;
         }
 
         /// <summary>
@@ -481,7 +481,7 @@ namespace Conversions
         /// <returns>Centimeter value</returns>
         public static double YardToCentimeter(double yard)
         {
-            return yard * LengthConstValues.cm_yard;
+            return yard * LengthConstValues.CmYard;
         }
 
         /// <summary>
@@ -491,7 +491,7 @@ namespace Conversions
         /// <returns>Foot value</returns>
         public static double CentimeterToFoot(double centimeter)
         {
-            return centimeter / LengthConstValues.cm_foot;
+            return centimeter / LengthConstValues.CmFoot;
         }
 
         /// <summary>
@@ -501,7 +501,7 @@ namespace Conversions
         /// <returns>Centimeter value</returns>
         public static double FootToCentimeter(double foot)
         {
-            return foot * LengthConstValues.cm_foot;
+            return foot * LengthConstValues.CmFoot;
         }
 
         /// <summary>
@@ -511,7 +511,7 @@ namespace Conversions
         /// <returns>Inch value</returns>
         public static double CentimeterToInch(double centimeter)
         {
-            return centimeter / LengthConstValues.cm_inch;
+            return centimeter / LengthConstValues.CmInch;
         }
 
         /// <summary>
@@ -521,7 +521,7 @@ namespace Conversions
         /// <returns>Centimeter value</returns>
         public static double InchToCentimeter(double inch)
         {
-            return inch * LengthConstValues.cm_inch;
+            return inch * LengthConstValues.CmInch;
         }
 
         /// <summary>
@@ -531,7 +531,7 @@ namespace Conversions
         /// <returns>Nautical mile value</returns>
         public static double CentimeterToNauticalMile(double centimeter)
         {
-            return centimeter / LengthConstValues.cm_nauticalmile;
+            return centimeter / LengthConstValues.CmNauticalmile;
         }
 
         /// <summary>
@@ -541,7 +541,7 @@ namespace Conversions
         /// <returns>Centimeter value</returns>
         public static double NauticalMileToCentimeter(double nauticalmile)
         {
-            return nauticalmile * LengthConstValues.cm_nauticalmile;
+            return nauticalmile * LengthConstValues.CmNauticalmile;
         }
 
         /// <summary>
@@ -551,7 +551,7 @@ namespace Conversions
         /// <returns>Micrometer value</returns>
         public static double MillimeterToMicrometer(double millimeter)
         {
-            return millimeter * LengthConstValues.mm_microm;
+            return millimeter * LengthConstValues.MmMicrom;
         }
 
         /// <summary>
@@ -561,7 +561,7 @@ namespace Conversions
         /// <returns>Millimeter value</returns>
         public static double MicrometerToMillimeter(double micrometer)
         {
-            return micrometer / LengthConstValues.mm_microm;
+            return micrometer / LengthConstValues.MmMicrom;
         }
 
         /// <summary>
@@ -571,7 +571,7 @@ namespace Conversions
         /// <returns>Nanometer value</returns>
         public static double MillimeterToNanometer(double millimeter)
         {
-            return millimeter * LengthConstValues.mm_nanom;
+            return millimeter * LengthConstValues.MmNanom;
         }
 
         /// <summary>
@@ -581,7 +581,7 @@ namespace Conversions
         /// <returns>Millimeter value</returns>
         public static double NanometerToMillimeter(double nanometer)
         {
-            return nanometer / LengthConstValues.mm_nanom;
+            return nanometer / LengthConstValues.MmNanom;
         }
 
         /// <summary>
@@ -591,7 +591,7 @@ namespace Conversions
         /// <returns>Mile value</returns>
         public static double MillimeterToMile(double millimeter)
         {
-            return millimeter / LengthConstValues.mm_mile;
+            return millimeter / LengthConstValues.MmMile;
         }
 
         /// <summary>
@@ -601,7 +601,7 @@ namespace Conversions
         /// <returns>Millimeter value</returns>
         public static double MileToMillimeter(double mile)
         {
-            return mile * LengthConstValues.mm_mile;
+            return mile * LengthConstValues.MmMile;
         }
 
         /// <summary>
@@ -611,7 +611,7 @@ namespace Conversions
         /// <returns>Yard value</returns>
         public static double MillimeterToYard(double millimeter)
         {
-            return millimeter / LengthConstValues.mm_yard;
+            return millimeter / LengthConstValues.MmYard;
         }
 
         /// <summary>
@@ -621,7 +621,7 @@ namespace Conversions
         /// <returns>Millimeter value</returns>
         public static double YardToMillimeter(double yard)
         {
-            return yard * LengthConstValues.mm_yard;
+            return yard * LengthConstValues.MmYard;
         }
 
         /// <summary>
@@ -631,7 +631,7 @@ namespace Conversions
         /// <returns>Foot value</returns>
         public static double MillimeterToFoot(double millimeter)
         {
-            return millimeter / LengthConstValues.mm_foot;
+            return millimeter / LengthConstValues.MmFoot;
         }
 
         /// <summary>
@@ -641,7 +641,7 @@ namespace Conversions
         /// <returns>Millimeter value</returns>
         public static double FootToMillimeter(double foot)
         {
-            return foot * LengthConstValues.mm_foot;
+            return foot * LengthConstValues.MmFoot;
         }
 
         /// <summary>
@@ -651,7 +651,7 @@ namespace Conversions
         /// <returns>Inch value</returns>
         public static double MillimeterToInch(double millimeter)
         {
-            return millimeter / LengthConstValues.mm_inch;
+            return millimeter / LengthConstValues.MmInch;
         }
 
         /// <summary>
@@ -661,7 +661,7 @@ namespace Conversions
         /// <returns>Millimeter value</returns>
         public static double InchToMillimeter(double inch)
         {
-            return inch * LengthConstValues.mm_inch;
+            return inch * LengthConstValues.MmInch;
         }
 
         /// <summary>
@@ -671,7 +671,7 @@ namespace Conversions
         /// <returns>Nautical Mile value</returns>
         public static double MillimeterToNauticalmile(double millimeter)
         {
-            return millimeter / LengthConstValues.mm_nauticalmile;
+            return millimeter / LengthConstValues.MmNauticalmile;
         }
 
         /// <summary>
@@ -681,7 +681,7 @@ namespace Conversions
         /// <returns>Millimeter value</returns>
         public static double NauticalmileToMillimeter(double nauticalmile)
         {
-            return nauticalmile * LengthConstValues.mm_nauticalmile;
+            return nauticalmile * LengthConstValues.MmNauticalmile;
         }
 
         /// <summary>
@@ -691,7 +691,7 @@ namespace Conversions
         /// <returns>Nanometer to Micrometer</returns>
         public static double MicrometerToNanometer(double micrometer)
         {
-            return micrometer * LengthConstValues.micro_nanom;
+            return micrometer * LengthConstValues.MicroNanom;
         }
 
         /// <summary>
@@ -701,7 +701,7 @@ namespace Conversions
         /// <returns>Micrometer value</returns>
         public static double NanometerToMicrometer(double nanometer)
         {
-            return nanometer / LengthConstValues.micro_nanom;
+            return nanometer / LengthConstValues.MicroNanom;
         }
 
         /// <summary>
@@ -711,7 +711,7 @@ namespace Conversions
         /// <returns>Mile value</returns>
         public static double MicrometerToMile(double micrometer)
         {
-            return micrometer / LengthConstValues.micro_mile;
+            return micrometer / LengthConstValues.MicroMile;
         }
 
         /// <summary>
@@ -721,7 +721,7 @@ namespace Conversions
         /// <returns>Micrometers value</returns>
         public static double MileToMicrometer(double mile)
         {
-            return mile * LengthConstValues.micro_mile;
+            return mile * LengthConstValues.MicroMile;
         }
 
         /// <summary>
@@ -731,7 +731,7 @@ namespace Conversions
         /// <returns>Yard value</returns>
         public static double MicrometerToYard(double micrometer)
         {
-            return micrometer / LengthConstValues.micro_yard;
+            return micrometer / LengthConstValues.MicroYard;
         }
 
         /// <summary>
@@ -741,7 +741,7 @@ namespace Conversions
         /// <returns>Micrometer value</returns>
         public static double YardToMicrometer(double yard)
         {
-            return yard * LengthConstValues.micro_yard;
+            return yard * LengthConstValues.MicroYard;
         }
 
         /// <summary>
@@ -751,7 +751,7 @@ namespace Conversions
         /// <returns>Foot value</returns>
         public static double MicrometerToFoot(double micrometer)
         {
-            return micrometer / LengthConstValues.micro_foot;
+            return micrometer / LengthConstValues.MicroFoot;
         }
 
         /// <summary>
@@ -761,7 +761,7 @@ namespace Conversions
         /// <returns>Micrometer value</returns>
         public static double FootToMicrometer(double foot)
         {
-            return foot * LengthConstValues.micro_foot;
+            return foot * LengthConstValues.MicroFoot;
         }
 
         /// <summary>
@@ -771,7 +771,7 @@ namespace Conversions
         /// <returns>Inch value</returns>
         public static double MicrometerToInch(double micrometer)
         {
-            return micrometer / LengthConstValues.micro_inch;
+            return micrometer / LengthConstValues.MicroInch;
         }
 
         /// <summary>
@@ -781,7 +781,7 @@ namespace Conversions
         /// <returns>Micrometer value</returns>
         public static double InchToMicrometer(double inch)
         {
-            return inch * LengthConstValues.micro_inch;
+            return inch * LengthConstValues.MicroInch;
         }
 
         /// <summary>
@@ -791,7 +791,7 @@ namespace Conversions
         /// <returns>Nautical mile value</returns>
         public static double MicrometerToNauticalmile(double micrometer)
         {
-            return micrometer / LengthConstValues.micro_nauticalmile;
+            return micrometer / LengthConstValues.MicroNauticalmile;
         }
 
         /// <summary>
@@ -801,7 +801,7 @@ namespace Conversions
         /// <returns>Micrometer value</returns>
         public static double NauticalmileToMicrometer(double nauticalmile)
         {
-            return nauticalmile * LengthConstValues.micro_nauticalmile;
+            return nauticalmile * LengthConstValues.MicroNauticalmile;
         }
 
         /// <summary>
@@ -811,7 +811,7 @@ namespace Conversions
         /// <returns>Mile value</returns>
         public static double NanometerToMile(double nanometer)
         {
-            return nanometer / LengthConstValues.nano_mile;
+            return nanometer / LengthConstValues.NanoMile;
         }
 
         /// <summary>
@@ -821,7 +821,7 @@ namespace Conversions
         /// <returns>Nanometer value</returns>
         public static double MileToNanometer(double mile)
         {
-            return mile * LengthConstValues.nano_mile;
+            return mile * LengthConstValues.NanoMile;
         }
 
         /// <summary>
@@ -831,7 +831,7 @@ namespace Conversions
         /// <returns>Yard value</returns>
         public static double NanometerToYard(double nanometer)
         {
-            return nanometer / LengthConstValues.nano_yard;
+            return nanometer / LengthConstValues.NanoYard;
         }
 
         /// <summary>
@@ -841,7 +841,7 @@ namespace Conversions
         /// <returns>Nanometer value</returns>
         public static double YardToNanometer(double yard)
         {
-            return yard * LengthConstValues.nano_yard;
+            return yard * LengthConstValues.NanoYard;
         }
 
         /// <summary>
@@ -851,7 +851,7 @@ namespace Conversions
         /// <returns>Foot value</returns>
         public static double NanometerToFoot(double nanometer)
         {
-            return nanometer / LengthConstValues.nano_foot;
+            return nanometer / LengthConstValues.NanoFoot;
         }
 
         /// <summary>
@@ -861,7 +861,7 @@ namespace Conversions
         /// <returns>Nanometer value</returns>
         public static double FootToNanometer(double foot)
         {
-            return foot * LengthConstValues.nano_foot;
+            return foot * LengthConstValues.NanoFoot;
         }
 
         /// <summary>
@@ -871,7 +871,7 @@ namespace Conversions
         /// <returns>Inch value</returns>
         public static double NanometerToInch(double nanometer)
         {
-            return nanometer / LengthConstValues.nano_inch;
+            return nanometer / LengthConstValues.NanoInch;
         }
 
         /// <summary>
@@ -881,7 +881,7 @@ namespace Conversions
         /// <returns>Nanometer value</returns>
         public static double InchToNanometer(double inch)
         {
-            return inch * LengthConstValues.nano_inch;
+            return inch * LengthConstValues.NanoInch;
         }
 
         /// <summary>
@@ -891,7 +891,7 @@ namespace Conversions
         /// <returns>Nautical mile value</returns>
         public static double NanometerToNauticalMile(double nanometer)
         {
-            return nanometer / LengthConstValues.nano_nauticalmile;
+            return nanometer / LengthConstValues.NanoNauticalmile;
         }
 
         /// <summary>
@@ -901,7 +901,7 @@ namespace Conversions
         /// <returns>Nanometer value</returns>
         public static double NauticalmileToNanometer(double nauticalmile)
         {
-            return nauticalmile * LengthConstValues.nano_nauticalmile;
+            return nauticalmile * LengthConstValues.NanoNauticalmile;
         }
 
         /// <summary>
@@ -911,7 +911,7 @@ namespace Conversions
         /// <returns>Yard value</returns>
         public static double MileToYard(double mile)
         {
-            return mile * LengthConstValues.mile_yard;
+            return mile * LengthConstValues.MileYard;
         }
 
         /// <summary>
@@ -921,7 +921,7 @@ namespace Conversions
         /// <returns>Mile value</returns>
         public static double YardToMile(double yard)
         {
-            return yard / LengthConstValues.mile_yard;
+            return yard / LengthConstValues.MileYard;
         }
 
         /// <summary>
@@ -931,7 +931,7 @@ namespace Conversions
         /// <returns>Foot value</returns>
         public static double MileToFoot(double mile)
         {
-            return mile * LengthConstValues.mile_foot;
+            return mile * LengthConstValues.MileFoot;
         }
 
         /// <summary>
@@ -941,7 +941,7 @@ namespace Conversions
         /// <returns>Mile value</returns>
         public static double FootToMile(double foot)
         {
-            return foot / LengthConstValues.mile_foot;
+            return foot / LengthConstValues.MileFoot;
         }
 
         /// <summary>
@@ -951,7 +951,7 @@ namespace Conversions
         /// <returns>Inch value</returns>
         public static double MileToInch(double mile)
         {
-            return mile * LengthConstValues.mile_inch;
+            return mile * LengthConstValues.MileInch;
         }
 
         /// <summary>
@@ -961,7 +961,7 @@ namespace Conversions
         /// <returns>Mile Value</returns>
         public static double InchToMile(double inch)
         {
-            return inch / LengthConstValues.mile_inch;
+            return inch / LengthConstValues.MileInch;
         }
 
         /// <summary>
@@ -971,7 +971,7 @@ namespace Conversions
         /// <returns>Nautical mile value</returns>
         public static double MileToNauticalmile(double mile)
         {
-            return mile / LengthConstValues.mile_nauticalmile;
+            return mile / LengthConstValues.MileNauticalmile;
         }
 
         /// <summary>
@@ -981,7 +981,7 @@ namespace Conversions
         /// <returns>Mile value</returns>
         public static double NauticalmiletoMile(double nauticalmile)
         {
-            return nauticalmile * LengthConstValues.mile_nauticalmile;
+            return nauticalmile * LengthConstValues.MileNauticalmile;
         }
 
         /// <summary>
@@ -991,7 +991,7 @@ namespace Conversions
         /// <returns>Foot value</returns>
         public static double YardToFoot(double yard)
         {
-            return yard * LengthConstValues.yard_foot;
+            return yard * LengthConstValues.YardFoot;
         }
 
         /// <summary>
@@ -1001,7 +1001,7 @@ namespace Conversions
         /// <returns>Yard value</returns>
         public static double FootToYard(double foot)
         {
-            return foot / LengthConstValues.yard_foot;
+            return foot / LengthConstValues.YardFoot;
         }
 
         /// <summary>
@@ -1011,7 +1011,7 @@ namespace Conversions
         /// <returns>Inch value</returns>
         public static double YardtoInch(double yard)
         {
-            return yard * LengthConstValues.yard_inch;
+            return yard * LengthConstValues.YardInch;
         }
 
         /// <summary>
@@ -1021,7 +1021,7 @@ namespace Conversions
         /// <returns>Yard value</returns>
         public static double InchToYard(double inch)
         {
-            return inch / LengthConstValues.yard_inch;
+            return inch / LengthConstValues.YardInch;
         }
 
         /// <summary>
@@ -1031,7 +1031,7 @@ namespace Conversions
         /// <returns>Nautical mile value</returns>
         public static double YardToNauticalmile(double yard)
         {
-            return yard / LengthConstValues.yard_nauticalmile;
+            return yard / LengthConstValues.YardNauticalmile;
         }
 
         /// <summary>
@@ -1041,7 +1041,7 @@ namespace Conversions
         /// <returns>Yard value</returns>
         public static double NauticalmileToYard(double nauticalmile)
         {
-            return nauticalmile * LengthConstValues.yard_nauticalmile;
+            return nauticalmile * LengthConstValues.YardNauticalmile;
         }
 
         /// <summary>
@@ -1051,7 +1051,7 @@ namespace Conversions
         /// <returns>Inch value</returns>
         public static double FootToInch(double foot)
         {
-            return foot * LengthConstValues.feet_inch;
+            return foot * LengthConstValues.FeetInch;
         }
 
         /// <summary>
@@ -1061,7 +1061,7 @@ namespace Conversions
         /// <returns>Foot value</returns>
         public static double InchToFoot(double inch)
         {
-            return inch / LengthConstValues.feet_inch;
+            return inch / LengthConstValues.FeetInch;
         }
 
         /// <summary>
@@ -1071,7 +1071,7 @@ namespace Conversions
         /// <returns>Nautical mile value</returns>
         public static double FootToNauticalmile(double foot)
         {
-            return foot / LengthConstValues.feet_nauticalmile;
+            return foot / LengthConstValues.FeetNauticalmile;
         }
 
         /// <summary>
@@ -1081,7 +1081,7 @@ namespace Conversions
         /// <returns>Foot value</returns>
         public static double NauticalmileToFoot(double nauticalmile)
         {
-            return nauticalmile * LengthConstValues.feet_nauticalmile;
+            return nauticalmile * LengthConstValues.FeetNauticalmile;
         }
 
         /// <summary>
@@ -1091,7 +1091,7 @@ namespace Conversions
         /// <returns>Nautical mile value</returns>
         public static double InchToNauticalmile(double inch)
         {
-            return inch / LengthConstValues.inch_nauticalmile;
+            return inch / LengthConstValues.InchNauticalmile;
         }
 
         /// <summary>
@@ -1101,7 +1101,7 @@ namespace Conversions
         /// <returns>Inch value</returns>
         public static double NauticalmileToInch(double nauticalmile)
         {
-            return nauticalmile * LengthConstValues.inch_nauticalmile;
+            return nauticalmile * LengthConstValues.InchNauticalmile;
         }
 
 
