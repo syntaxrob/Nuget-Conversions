@@ -9,11 +9,11 @@ namespace Conversions.UnitsOfTemperature
         /// <summary>
         /// Convert Celcius to Farenheit
         /// </summary>
-        /// <param name="celius"></param>
+        /// <param name="celcius"></param>
         /// <returns>Farenheit</returns>
-        public static double CelciusToFarenheit(double celius)
+        public static double CelciusToFarenheit(double celcius)
         {
-            return (celius * 1.8) + 32;
+            return (celcius * 1.8) + 32;
         }
 
         /// <summary>
