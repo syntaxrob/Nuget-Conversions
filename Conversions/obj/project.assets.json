@@ -15,7 +15,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "D:\\Education\\Nugets\\Conversions\\Conversions\\Conversions.csproj",
-      "projectName": "Conversions",
+      "projectName": "Units.Conversions",
       "projectPath": "D:\\Education\\Nugets\\Conversions\\Conversions\\Conversions.csproj",
       "packagesPath": "C:\\Users\\rpenn\\.nuget\\packages\\",
       "outputPath": "D:\\Education\\Nugets\\Conversions\\Conversions\\obj\\",

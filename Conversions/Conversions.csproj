@@ -2,6 +2,27 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Copyright>2020</Copyright>
+    <Authors>Rob Penn</Authors>
+    <Version>1.0.0</Version>
+    <PackageProjectUrl>https://github.com/syntaxrob/Nuget-Conversions</PackageProjectUrl>
+    <Company />
+    <PackageId>Units.Conversions</PackageId>
+    <Product>Unit Conversion Tool</Product>
+    <Description>Convert different units of length (metic and imperial are supported)</Description>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>conversions convert length metric imperial miles kilometers centimeters nautical miles millimeters yards feet inches micrometers nanometers</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>This is the initial release containing conversions of length</PackageReleaseNotes>
+    <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
