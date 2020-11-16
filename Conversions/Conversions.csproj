@@ -4,17 +4,17 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <Copyright>2020</Copyright>
     <Authors>Rob Penn</Authors>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <PackageProjectUrl>https://github.com/syntaxrob/Nuget-Conversions</PackageProjectUrl>
     <Company />
     <PackageId>Units.Conversions</PackageId>
     <Product>Unit Conversion Tool</Product>
-    <Description>Convert different units of length, temperature and speed</Description>
+    <Description>Convert different units of length, temperature, speed and fuel economy</Description>
     <PackageIcon>icon.png</PackageIcon>
-    <PackageTags>conversions convert length metric imperial miles kilometers centimeters nautical miles millimeters yards feet inches micrometers nanometers celcius farenheit kelvin</PackageTags>
+    <PackageTags>conversions convert length metric imperial miles kilometers centimeters nautical miles millimeters yards feet inches micrometers nanometers celcius farenheit kelvin mpg kpl</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageReleaseNotes>Speed unit added for Miles per hour, feet per second, meters per second, kilometers per hour and knots</PackageReleaseNotes>
+    <PackageReleaseNotes>Fuel economy added for miles per gallon, imperial miles per gallon, kilometers per liter and liters per 100km</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
 
