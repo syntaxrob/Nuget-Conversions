@@ -3,7 +3,7 @@ This is the project page for the Nuget package **Units.Conversions** which, once
 
 | Length      |  Temperature    | Speed               |
 | ----------- | --------------- | ------------------- |
-| Kilometers  | Celcius         | Miles per hour      |
+| Kilometers  | Celsius         | Miles per hour      |
 | Meters      | Farenheit       | Feet per second     |
 | Centimerters| Kelvin          | Meters per second   |
 | Millimeters |                 | Kilometers per hour |
