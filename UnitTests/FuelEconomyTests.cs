@@ -47,5 +47,13 @@ namespace UnitTests
             double actual = FuelEconomy.MilesPerGallonImperialToLitersPerHundredKm(1);
             Assert.Equal(expected, actual);
         }
+
+        [Fact]
+        public void KilometersPerLiterAndLitersPerHunngredKm()
+        {
+            double expected = 100;
+            double actual = FuelEconomy.KilometersPerLiterToLitersPerHundredKm(1);
+            Assert.Equal(expected, actual);
+        }
     }
 }
