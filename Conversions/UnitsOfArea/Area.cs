@@ -25,7 +25,7 @@ namespace Conversions.UnitsOfArea
             public const double SqmileSqfoot = 27880000;
             public const double SqmileSqinch = 4014000000;
             public const double SqmileHectare = 259;
-            public const double SqmileAcre = 259;
+            public const double SqmileAcre = 640;
             public const double SqyardSqfoot = 9;
             public const double SqyardSqinch = 1296;
             public const double SqyardHectare = 11960;
@@ -176,6 +176,76 @@ namespace Conversions.UnitsOfArea
         public static double SquareMeterToAcre(double sqm)
         {
             return sqm / ConstValues.SqmAcre;
+        }
+
+        /// <summary>
+        /// Convert Square miles to Square Kilometers
+        /// </summary>
+        /// <param name="sqmile"></param>
+        /// <returns>Square Kilometers</returns>
+        public static double SquareMileToSquareKilometer(double sqmile)
+        {
+            return sqmile * ConstValues.SqKmSqmile;
+        }
+
+        /// <summary>
+        /// Convert Square miles to Square Miles
+        /// </summary>
+        /// <param name="sqmile"></param>
+        /// <returns>Square Miles</returns>
+        public static double SquareMileToSquareMeter(double sqmile)
+        {
+            return sqmile * ConstValues.SqmSqMile;
+        }
+
+        /// <summary>
+        /// Convert Square Miles to Square Yards
+        /// </summary>
+        /// <param name="sqmile"></param>
+        /// <returns>Square Yards</returns>
+        public static double SquareMileToSquareYard(double sqmile)
+        {
+            return sqmile * ConstValues.SqmileSqyard;
+        }
+
+        /// <summary>
+        /// Convert Square Miles to Square Feet
+        /// </summary>
+        /// <param name="sqmile"></param>
+        /// <returns>Square Feet</returns>
+        public static double SquareMileToSquareFoot(double sqmile)
+        {
+            return sqmile * ConstValues.SqmileSqfoot;
+        }
+
+        /// <summary>
+        /// Convert Square Miles to Square Inch
+        /// </summary>
+        /// <param name="sqmile"></param>
+        /// <returns>Square Inch</returns>
+        public static double SquareMileToSquareInch(double sqmile)
+        {
+            return sqmile * ConstValues.SqmileSqinch;
+        }
+
+        /// <summary>
+        /// Convert Square Miles to Hectares
+        /// </summary>
+        /// <param name="sqmile"></param>
+        /// <returns>Hectares</returns>
+        public static double SquareMileToHectare(double sqmile)
+        {
+            return sqmile * ConstValues.SqmileHectare;
+        }
+
+        /// <summary>
+        /// Square Miles to Acres
+        /// </summary>
+        /// <param name="sqmile"></param>
+        /// <returns>Acres</returns>
+        public static double SquareMileToAcre(double sqmile)
+        {
+            return sqmile * ConstValues.SqmileAcre;
         }
     }
 }

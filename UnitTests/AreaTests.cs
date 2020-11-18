@@ -111,5 +111,45 @@ namespace UnitTests
             double actual = Area.SquareMeterToAcre(1);
             Assert.Equal(expected, actual);
         }
+
+        [Fact]
+        public void SqMilesAndSqYards()
+        {
+            double expected = 3.098e+6;
+            double actual = Area.SquareMileToSquareYard(1);
+            Assert.Equal(expected, actual);
+        }
+
+        [Fact]
+        public void SqMilesAndSqFeet()
+        {
+            double expected = 2.788e+7;
+            double actual = Area.SquareMileToSquareFoot(1);
+            Assert.Equal(expected, actual);
+        }
+
+        [Fact]
+        public void SqMilesAndSqInches()
+        {
+            double expected = 4.014e+9;
+            double actual = Area.SquareMileToSquareInch(1);
+            Assert.Equal(expected, actual);
+        }
+
+        [Fact]
+        public void SqMilesAndHectares()
+        {
+            double expected = 259;
+            double actual = Area.SquareMileToHectare(1);
+            Assert.Equal(expected, actual);
+        }
+
+        [Fact]
+        public void SqMilesAndAcres()
+        {
+            double expected = 640;
+            double actual = Area.SquareMileToAcre(1);
+            Assert.Equal(expected, actual);
+        }
     }
 }
