@@ -247,5 +247,75 @@ namespace Conversions.UnitsOfArea
         {
             return sqmile * ConstValues.SqmileAcre;
         }
+
+        /// <summary>
+        /// Convert Square yards to Square Kilometers
+        /// </summary>
+        /// <param name="sqy"></param>
+        /// <returns>Square Kilometers</returns>
+        public static double SquareYardToSquareKilometer(double sqy)
+        {
+            return sqy / ConstValues.SqKmSqyard;
+        }
+
+        /// <summary>
+        /// Convert Square Yards to Square Meters
+        /// </summary>
+        /// <param name="sqy"></param>
+        /// <returns>Square Meters</returns>
+        public static double SquareYardToSquareMeter(double sqy)
+        {
+            return sqy / ConstValues.SqmSqYard;
+        }
+
+        /// <summary>
+        /// Convert Square Yards to Square Miles
+        /// </summary>
+        /// <param name="sqy"></param>
+        /// <returns>Square Miles</returns>
+        public static double SquareYardToSquareMile(double sqy)
+        {
+            return sqy / ConstValues.SqmileSqyard;
+        }
+
+        /// <summary>
+        /// Convert Square Yards to Square Feet
+        /// </summary>
+        /// <param name="sqy"></param>
+        /// <returns>Square Feet</returns>
+        public static double SquareYardToSquareFoot(double sqy)
+        {
+            return sqy * ConstValues.SqyardSqfoot;
+        }
+
+        /// <summary>
+        /// Convert Square Yards to Square Inches
+        /// </summary>
+        /// <param name="sqy"></param>
+        /// <returns>Square Inches</returns>
+        public static double SquareYardToSquareInch(double sqy)
+        {
+            return sqy * ConstValues.SqyardSqinch;
+        }
+
+        /// <summary>
+        /// Convert Square Yards to Hectares
+        /// </summary>
+        /// <param name="sqy"></param>
+        /// <returns>Hectares</returns>
+        public static double SquareYardToHectare(double sqy)
+        {
+            return sqy / ConstValues.SqyardHectare;
+        }
+
+        /// <summary>
+        /// Convert Square Yards to Acres
+        /// </summary>
+        /// <param name="sqy"></param>
+        /// <returns>Acres</returns>
+        public static double SquareYardToAcre(double sqy)
+        {
+            return sqy / ConstValues.SqyardAcre;
+        }
     }
 }
