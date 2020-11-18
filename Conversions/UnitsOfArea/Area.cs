@@ -107,5 +107,75 @@ namespace Conversions.UnitsOfArea
         {
             return sqkm * ConstValues.SqKmAcre;
         }
+
+        /// <summary>
+        /// Convert Square meters to Square Kilometers
+        /// </summary>
+        /// <param name="sqm"></param>
+        /// <returns>Square Kilometers</returns>
+        public static double SquareMeterToSquareKilometer(double sqm)
+        {
+            return sqm / ConstValues.SqKmSqmeter;
+        }
+
+        /// <summary>
+        /// Convert Square meters to Square miles
+        /// </summary>
+        /// <param name="sqm"></param>
+        /// <returns>Square miles</returns>
+        public static double SquareMeterToSquareMile(double sqm)
+        {
+            return sqm / ConstValues.SqmSqMile;
+        }
+
+        /// <summary>
+        /// Convert Square meters to Square yards
+        /// </summary>
+        /// <param name="sqm"></param>
+        /// <returns>Square yards</returns>
+        public static double SquareMeterToSquareYard(double sqm)
+        {
+            return sqm * ConstValues.SqmSqYard;
+        }
+
+        /// <summary>
+        /// Convert Square meters to Square feet
+        /// </summary>
+        /// <param name="sqm"></param>
+        /// <returns>Square feet</returns>
+        public static double SquareMeterToSquareFoot(double sqm)
+        {
+            return sqm * ConstValues.SqmSqFoot;
+        }
+
+        /// <summary>
+        /// Convert Square meters to Square inches
+        /// </summary>
+        /// <param name="sqm"></param>
+        /// <returns>Square inches</returns>
+        public static double SquareMeterToSquareInch(double sqm)
+        {
+            return sqm * ConstValues.SqmSqInch;
+        }
+
+        /// <summary>
+        /// Convert Square meters to Hectares
+        /// </summary>
+        /// <param name="sqm"></param>
+        /// <returns>Hectares</returns>
+        public static double SquareMeterToHectare(double sqm)
+        {
+            return sqm / ConstValues.SqmHectare;
+        }
+
+        /// <summary>
+        /// Convert Square meters to Acres
+        /// </summary>
+        /// <param name="sqm"></param>
+        /// <returns>Acres</returns>
+        public static double SquareMeterToAcre(double sqm)
+        {
+            return sqm / ConstValues.SqmAcre;
+        }
     }
 }

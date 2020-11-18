@@ -9,12 +9,13 @@
     <Company />
     <PackageId>Units.Conversions</PackageId>
     <Product>Unit Conversion Tool</Product>
-    <Description>Convert different units of length, temperature, speed, fuel economy, frequency and pressure</Description>
+    <Description>Convert different units of length, temperature, speed, fuel economy, frequency, pressure and area</Description>
     <PackageIcon>icon.png</PackageIcon>
     <PackageTags>conversions convert length metric imperial miles kilometers centimeters nautical miles millimeters yards feet inches micrometers nanometers celcius farenheit kelvin mpg kpl htz hertz bar psi pascal atmospheres torr</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageReleaseNotes>Pressure added from Bar, Pascal, PSI, Standard Atmospheres and Torr</PackageReleaseNotes>
+    <PackageReleaseNotes>Pressure added for Bar, Pascal, PSI, Standard Atmospheres and Torr
+Area added for Square Kilimeters, Square meters, Square miles, Square yards, Square feet, Square inches, Hectares and Acres</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
 
