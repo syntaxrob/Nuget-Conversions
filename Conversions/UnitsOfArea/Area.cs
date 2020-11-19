@@ -527,5 +527,75 @@ namespace Conversions.UnitsOfArea
         {
             return hect * ConstValues.HectareAcre;
         }
+
+        /// <summary>
+        /// Convert Acres to Square Kilometers
+        /// </summary>
+        /// <param name="acre"></param>
+        /// <returns>Square Kilometers</returns>
+        public static double AcreToSquareKilometer(double acre)
+        {
+            return acre / ConstValues.SqKmAcre;
+        }
+
+        /// <summary>
+        /// Convert Acres to Square Meters
+        /// </summary>
+        /// <param name="acre"></param>
+        /// <returns>Square Meters</returns>
+        public static double AcreToSquareMeter(double acre)
+        {
+            return acre * ConstValues.SqmAcre;
+        }
+
+        /// <summary>
+        /// Convert Acres to Square Miles
+        /// </summary>
+        /// <param name="acre"></param>
+        /// <returns>Square Miles</returns>
+        public static double AcreToSquareMile(double acre)
+        {
+            return acre / ConstValues.SqmileAcre;
+        }
+
+        /// <summary>
+        /// Convert Acres to Square Yards
+        /// </summary>
+        /// <param name="acre"></param>
+        /// <returns>Square Yards</returns>
+        public static double AcreToSquareYard(double acre)
+        {
+            return acre * ConstValues.SqyardAcre;
+        }
+
+        /// <summary>
+        /// Convert Acres to Square Feet
+        /// </summary>
+        /// <param name="acre"></param>
+        /// <returns>Square Feet</returns>
+        public static double AcreToSquareFoot(double acre)
+        {
+            return acre * ConstValues.SqfootAcre;
+        }
+
+        /// <summary>
+        /// Convert Acres to Square Inch
+        /// </summary>
+        /// <param name="acre"></param>
+        /// <returns>Square Inch</returns>
+        public static double AcreToSquareInch(double acre)
+        {
+            return acre * ConstValues.SqinchAcre;
+        }
+
+        /// <summary>
+        /// Convert Acres to Hectares
+        /// </summary>
+        /// <param name="acre"></param>
+        /// <returns>Hectares</returns>
+        public static double AcreToHectare(double acre)
+        {
+            return acre / ConstValues.HectareAcre;
+        }
     }
 }
