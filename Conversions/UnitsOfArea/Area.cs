@@ -387,5 +387,75 @@ namespace Conversions.UnitsOfArea
         {
             return sqf / ConstValues.SqfootAcre;
         }
+
+        /// <summary>
+        /// Convert Square Inches to Square Kilometers
+        /// </summary>
+        /// <param name="sqi"></param>
+        /// <returns>Square Kilometers</returns>
+        public static double SquareInchToSquareKilometer(double sqi)
+        {
+            return sqi / ConstValues.SqKmSqinch;
+        }
+
+        /// <summary>
+        /// Convert Square Inches to Square Meters
+        /// </summary>
+        /// <param name="sqi"></param>
+        /// <returns>Square Meters</returns>
+        public static double SquareInchToSquareMeter(double sqi)
+        {
+            return sqi / ConstValues.SqmSqInch;
+        }
+
+        /// <summary>
+        /// Convert Square Inches to Square Miles
+        /// </summary>
+        /// <param name="sqi"></param>
+        /// <returns>Square Miles</returns>
+        public static double SquareInchToSquareMile(double sqi)
+        {
+            return sqi / ConstValues.SqmileSqinch;
+        }
+
+        /// <summary>
+        /// Convert Square Inches to Square Yards
+        /// </summary>
+        /// <param name="sqi"></param>
+        /// <returns>Square Yards</returns>
+        public static double SquareInchToSquareYard(double sqi)
+        {
+            return sqi / ConstValues.SqyardSqinch;
+        }
+
+        /// <summary>
+        /// Convert Square Inches to Square Feet
+        /// </summary>
+        /// <param name="sqi"></param>
+        /// <returns>Square Feet</returns>
+        public static double SquareInchToSquareFoot(double sqi)
+        {
+            return sqi / ConstValues.SqfootSqinch;
+        }
+
+        /// <summary>
+        /// Convert Square Inches to Hectares
+        /// </summary>
+        /// <param name="sqi"></param>
+        /// <returns>Hectares</returns>
+        public static double SquareInchToHectare(double sqi)
+        {
+            return sqi / ConstValues.SqinchHectare;
+        }
+
+        /// <summary>
+        /// Convert Square Inches to Acres
+        /// </summary>
+        /// <param name="sqi"></param>
+        /// <returns>Acres</returns>
+        public static double SquareInchToAcre(double sqi)
+        {
+            return sqi / ConstValues.SqinchAcre;
+        }
     }
 }

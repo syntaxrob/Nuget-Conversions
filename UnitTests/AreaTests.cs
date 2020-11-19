@@ -207,5 +207,21 @@ namespace UnitTests
             double actual = Area.SquareFootToSquareAcre(1);
             Assert.Equal(expected, actual);
         }
+
+        [Fact]
+        public void SqInchesAndHectares()
+        {
+            double expected = 6.451612903225807E-08;
+            double actual = Area.SquareInchToHectare(1);
+            Assert.Equal(expected, actual);
+        }
+
+        [Fact]
+        public void SqInchesAndAcres()
+        {
+            double expected = 1.5941335883947074E-07;
+            double actual = Area.SquareInchToAcre(1);
+            Assert.Equal(expected, actual);
+        }
     }
 }
