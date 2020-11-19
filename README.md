@@ -15,12 +15,24 @@ This is the project page for the Nuget package **Units.Conversions** which, once
 | Inches      |
 | Nautical Miles|
 
+| Area              |
+| ----------------- |
+| Square Kilometers |
+| Square Meters     |
+| Square Mile       |
+| Square Yard       |
+| Square Foot       |
+| Square Inch       |
+| Square Hectare    | 
+| Square Acre       |
+
 To use this package, add the relevant `using` statements:
 * `using Conversions` - which gives access to the `Length` property
 * `using Conversions.UnitsOfTemperature` - which gives access to the `Temperature` property
 * `using Conversions.UnitsOfSpeed` - which gives access to the `Speed` property
 * `using Conversions.UnitsOfFuelEconomy` - which gives access to the `FuelEconomy` property
 * `using Conversions.UnitsOfFrequency` - which gives access to the `Frequency` property
+* `using Conversions.UnitsOfArea` - which gives access to the `Area` property
 
 For example:
 ```
@@ -28,7 +40,8 @@ using Conversions
 using Conversions.UnitsOfTemperature;
 using Conversions.UnitsOfSpeed;
 using Conversions.UnitsOfFuelEconomy;
-using Conversions.UnitsOfFrequency
+using Conversions.UnitsOfFrequency;
+using Conversions.UnitsOfArea;
 
 namespace SampleApp
 {
@@ -55,6 +68,10 @@ namespace SampleApp
             Console.WriteLine("Convert 1500 hertz to Kilohertz");
             var khtz = Frequency.HertzToKilohertz(1500);
             Console.WriteLine(khtz);
+            
+            Console.WriteLine("Convert 20 square kilometers to Acres");
+            var acres = Area.SquareKilometerToAcre(20);
+            Console.WriteLine(acres);
         }
     }
 }
