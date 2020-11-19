@@ -457,5 +457,75 @@ namespace Conversions.UnitsOfArea
         {
             return sqi / ConstValues.SqinchAcre;
         }
+
+        /// <summary>
+        /// Convert Hectares to Square Kilometers
+        /// </summary>
+        /// <param name="hect"></param>
+        /// <returns>Square Kilometers</returns>
+        public static double HectareToSquareKilometer(double hect)
+        {
+            return hect / ConstValues.SqKmHectare;
+        }
+
+        /// <summary>
+        /// Convert Hectares to Square Meters
+        /// </summary>
+        /// <param name="hect"></param>
+        /// <returns>Square Meters</returns>
+        public static double HectareToSquareMeter(double hect)
+        {
+            return hect * ConstValues.SqmHectare;
+        }
+
+        /// <summary>
+        /// Convert Hectares to Square Miles
+        /// </summary>
+        /// <param name="hect"></param>
+        /// <returns>Square Miles</returns>
+        public static double HectareToSquareMile(double hect)
+        {
+            return hect / ConstValues.SqmileHectare;
+        }
+
+        /// <summary>
+        /// Convert Hectares to Square Yards
+        /// </summary>
+        /// <param name="hect"></param>
+        /// <returns>Square Yards</returns>
+        public static double HectareToSquareYard(double hect)
+        {
+            return hect * ConstValues.SqyardHectare;
+        }
+
+        /// <summary>
+        /// Convert Hectares to Square Feet
+        /// </summary>
+        /// <param name="hect"></param>
+        /// <returns>Square Feet</returns>
+        public static double HectareToSquareFoot(double hect)
+        {
+            return hect * ConstValues.SqfootHectare;
+        }
+
+        /// <summary>
+        /// Convert Hectares to Square Inch
+        /// </summary>
+        /// <param name="hect"></param>
+        /// <returns>Square Inch</returns>
+        public static double HectareToSquareInch(double hect)
+        {
+            return hect * ConstValues.SqinchHectare;
+        }
+
+        /// <summary>
+        /// Convert Hectares to Acres
+        /// </summary>
+        /// <param name="hect"></param>
+        /// <returns>Acres</returns>
+        public static double HectareToAcre(double hect)
+        {
+            return hect * ConstValues.HectareAcre;
+        }
     }
 }
