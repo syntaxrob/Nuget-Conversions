@@ -317,5 +317,75 @@ namespace Conversions.UnitsOfArea
         {
             return sqy / ConstValues.SqyardAcre;
         }
+
+        /// <summary>
+        /// Convert Square Feet to Square Kilometers
+        /// </summary>
+        /// <param name="sqf"></param>
+        /// <returns>Square Kilometers</returns>
+        public static double SquareFootToSquareKilometer(double sqf)
+        {
+            return sqf / ConstValues.SqKmSqfoot;
+        }
+
+        /// <summary>
+        /// Convert Square Feet to Square Meters
+        /// </summary>
+        /// <param name="sqf"></param>
+        /// <returns>Square Meters</returns>
+        public static double SquareFootToSquareMeter(double sqf)
+        {
+            return sqf / ConstValues.SqmSqFoot;
+        }
+
+        /// <summary>
+        /// Convert Square Feet to Square Miles
+        /// </summary>
+        /// <param name="sqf"></param>
+        /// <returns>Square Miles</returns>
+        public static double SquareFootToSquareMile(double sqf)
+        {
+            return sqf / ConstValues.SqmileSqfoot;
+        }
+
+        /// <summary>
+        /// Convert Square Feet to Square Yard
+        /// </summary>
+        /// <param name="sqf"></param>
+        /// <returns>Square Yard</returns>
+        public static double SquareFootToSquareYard(double sqf)
+        {
+            return sqf / ConstValues.SqyardSqfoot;
+        }
+
+        /// <summary>
+        /// Convert Square Feet to Square Inch
+        /// </summary>
+        /// <param name="sqf"></param>
+        /// <returns>Square Inch</returns>
+        public static double SquareFootToSquareInch(double sqf)
+        {
+            return sqf * ConstValues.SqfootSqinch;
+        }
+
+        /// <summary>
+        /// Convert Square Feet to Hectares
+        /// </summary>
+        /// <param name="sqf"></param>
+        /// <returns></returns>
+        public static double SquareFootToHectare(double sqf)
+        {
+            return sqf / ConstValues.SqfootHectare;
+        }
+
+        /// <summary>
+        /// Square Feet to Acres
+        /// </summary>
+        /// <param name="sqf"></param>
+        /// <returns>Acres</returns>
+        public static double SquareFootToSquareAcre(double sqf)
+        {
+            return sqf / ConstValues.SqfootAcre;
+        }
     }
 }
