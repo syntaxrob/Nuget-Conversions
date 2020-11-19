@@ -23,8 +23,8 @@ This is the project page for the Nuget package **Units.Conversions** which, once
 | Square Yard       |
 | Square Foot       |
 | Square Inch       |
-| Square Hectare    | 
-| Square Acre       |
+| Hectare           | 
+| Acre              |
 
 To use this package, add the relevant `using` statements:
 * `using Conversions` - which gives access to the `Length` property
