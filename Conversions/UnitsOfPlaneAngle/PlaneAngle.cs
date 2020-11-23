@@ -15,6 +15,7 @@ namespace Conversions.UnitsOfPlaneAngle
             public const double GradMoa = 54;
             public const double GradSoa = 3240;
             public const double MoaSoa = 60;
+            public const double RadMrad = 1000;
         }
 
         /// <summary>
@@ -215,6 +216,56 @@ namespace Conversions.UnitsOfPlaneAngle
         public static double MinuteOfArcToSecondOfArc(double moa)
         {
             return moa * ConstValues.MoaSoa;
+        }
+
+        /// <summary>
+        /// Convert Radians to Degrees
+        /// </summary>
+        /// <param name="rad"></param>
+        /// <returns>Degrees</returns>
+        public static double RadiansToDegrees(double rad)
+        {
+            return rad * (180 / ConstValues.Pi);
+        }
+
+        /// <summary>
+        /// Convert Radians to Gradians
+        /// </summary>
+        /// <param name="rad"></param>
+        /// <returns>Gradians</returns>
+        public static double RadiansToGradians(double rad)
+        {
+            return rad * (200 * ConstValues.Pi);
+        }
+
+        /// <summary>
+        /// Convert Radians to Milliradians
+        /// </summary>
+        /// <param name="rad"></param>
+        /// <returns>Milliradians</returns>
+        public static double RadiansToMilliradians(double rad)
+        {
+            return rad * ConstValues.RadMrad;
+        }
+
+        /// <summary>
+        /// Convert Radians to Minutes of Arc
+        /// </summary>
+        /// <param name="rad"></param>
+        /// <returns>Minutes of Arc</returns>
+        public static double RadiansToMinuteOfArc(double rad)
+        {
+            return rad * ((60 * 180) / ConstValues.Pi);
+        }
+
+        /// <summary>
+        /// Convert Radians to Seconds of Arc
+        /// </summary>
+        /// <param name="rad"></param>
+        /// <returns>Seconds of Arc</returns>
+        public static double RadiansToSecondOfArc(double rad)
+        {
+            return rad * ((3600 * 180) / ConstValues.Pi);
         }
     }
 }
