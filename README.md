@@ -15,14 +15,14 @@ This is the project page for the Nuget package **Units.Conversions** which, once
 | Inches      |
 | Nautical Miles|
 
-| Area              |
-| ----------------- |
-| Square Kilometers |
-| Square Meters     |
-| Square Mile       |
-| Square Yard       |
-| Square Foot       |
-| Square Inch       |
+| Area              | Plane angles   |
+| ----------------- | -------------- |
+| Square Kilometers | Degrees        |
+| Square Meters     | Gradians       |
+| Square Mile       | Milliradians   |
+| Square Yard       | Minutes of arc |
+| Square Foot       | Radians        |
+| Square Inch       | Seconds of arc |
 | Hectare           | 
 | Acre              |
 
@@ -33,6 +33,8 @@ To use this package, add the relevant `using` statements:
 * `using Conversions.UnitsOfFuelEconomy` - which gives access to the `FuelEconomy` property
 * `using Conversions.UnitsOfFrequency` - which gives access to the `Frequency` property
 * `using Conversions.UnitsOfArea` - which gives access to the `Area` property
+* `using Conversions.UnitsOfPlaneAngle` - which gives access to the `Plane Angle` property
+
 
 For example:
 ```
@@ -42,6 +44,7 @@ using Conversions.UnitsOfSpeed;
 using Conversions.UnitsOfFuelEconomy;
 using Conversions.UnitsOfFrequency;
 using Conversions.UnitsOfArea;
+using Conversions.UnitsOfPlaneAngle;
 
 namespace SampleApp
 {
@@ -72,6 +75,10 @@ namespace SampleApp
             Console.WriteLine("Convert 20 square kilometers to Acres");
             var acres = Area.SquareKilometerToAcre(20);
             Console.WriteLine(acres);
+            
+            Console.WriteLine("Convert 45degrees to Radians");
+            var rads = PlaneAngle.DegreeToRadian(45);
+            Console.WriteLine(rads);
         }
     }
 }
