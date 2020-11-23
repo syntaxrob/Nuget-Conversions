@@ -47,5 +47,37 @@ namespace UnitTests
             double actual = PlaneAngle.DegreeToSecondOfArc(1);
             Assert.Equal(expected, actual);
         }
+
+        [Fact]
+        public void GradiansAndMilliRadians()
+        {
+            double expected = 15.707963267948964;
+            double actual = PlaneAngle.GradianToMilliradian(1);
+            Assert.Equal(expected, actual);
+        }
+
+        [Fact]
+        public void GradiansAndMinutesOfArc()
+        {
+            double expected = 54;
+            double actual = PlaneAngle.GradianToMinuteOfArc(1);
+            Assert.Equal(expected, actual);
+        }
+
+        [Fact]
+        public void GradiansAndRadian()
+        {
+            double expected = 0.015707963267948967;
+            double actual = PlaneAngle.GradianToRadian(1);
+            Assert.Equal(expected, actual);
+        }
+
+        [Fact]
+        public void GradiansAndSecondOfArc()
+        {
+            double expected = 3240;
+            double actual = PlaneAngle.GradianToSecondOfArc(1);
+            Assert.Equal(expected, actual);
+        }
     }
 }
