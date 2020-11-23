@@ -14,6 +14,7 @@ namespace Conversions.UnitsOfPlaneAngle
             public const double DegSoa = 3600;
             public const double GradMoa = 54;
             public const double GradSoa = 3240;
+            public const double MoaSoa = 60;
         }
 
         /// <summary>
@@ -164,6 +165,56 @@ namespace Conversions.UnitsOfPlaneAngle
         public static double MilliRadiansToSecondOfArc(double millirads)
         {
             return millirads * (3600 * 180) / (1000 * ConstValues.Pi);
+        }
+
+        /// <summary>
+        /// Convert Minutes of Arc to Degrees
+        /// </summary>
+        /// <param name="moa"></param>
+        /// <returns>Degrees</returns>
+        public static double MinuteOfArcToDegrees(double moa)
+        {
+            return moa / ConstValues.DegMoa;
+        }
+
+        /// <summary>
+        /// Convert Minutes of Arc to Gradians
+        /// </summary>
+        /// <param name="moa"></param>
+        /// <returns>Gradians</returns>
+        public static double MinuteOfArcToGradians(double moa)
+        {
+            return moa / ConstValues.DegGrad;
+        }
+
+        /// <summary>
+        /// Convert Minutes of Arc to Milliradians
+        /// </summary>
+        /// <param name="moa"></param>
+        /// <returns>Milliradians</returns>
+        public static double MinuteOfArcToMilliradians(double moa)
+        {
+            return moa * (1000 * ConstValues.Pi) / (60 * 180);
+        }
+
+        /// <summary>
+        /// Convert Minutes of Arc to Radians
+        /// </summary>
+        /// <param name="moa"></param>
+        /// <returns>Radians</returns>
+        public static double MinuteOfArcToRadians(double moa)
+        {
+            return moa * (ConstValues.Pi / (60 * 180));
+        }
+
+        /// <summary>
+        /// Convert Minutes of Arc to Seconds of Arc
+        /// </summary>
+        /// <param name="moa"></param>
+        /// <returns>Seconds of Arc</returns>
+        public static double MinuteOfArcToSecondOfArc(double moa)
+        {
+            return moa * ConstValues.MoaSoa;
         }
     }
 }

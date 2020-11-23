@@ -104,5 +104,20 @@ namespace UnitTests
             Assert.Equal(expected, actual);
         }
 
+        [Fact]
+        public void MinutesOfArcAndRadians()
+        {
+            double expected = 0.0002908882086657216;
+            double actual = PlaneAngle.MinuteOfArcToRadians(1);
+            Assert.Equal(expected, actual);
+        }
+
+        [Fact]
+        public void MinutesOfArcAndSecondsOfArc()
+        {
+            double expected = 60;
+            double actual = PlaneAngle.MinuteOfArcToSecondOfArc(1);
+            Assert.Equal(expected, actual);
+        }
     }
 }
