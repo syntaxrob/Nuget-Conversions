@@ -267,5 +267,55 @@ namespace Conversions.UnitsOfPlaneAngle
         {
             return rad * ((3600 * 180) / ConstValues.Pi);
         }
+
+        /// <summary>
+        /// Convert Seconds of Arc to Degrees
+        /// </summary>
+        /// <param name="soa"></param>
+        /// <returns>Degrees</returns>
+        public static double SecondOfArcToDegree(double soa)
+        {
+            return soa / ConstValues.DegSoa;
+        }
+
+        /// <summary>
+        /// Convert Seconds of Arc to Gradians
+        /// </summary>
+        /// <param name="soa"></param>
+        /// <returns>Gradians</returns>
+        public static double SecondOfArcToGradians(double soa)
+        {
+            return soa / ConstValues.GradSoa;
+        }
+
+        /// <summary>
+        /// Convert Seconds of Arc to Milliradians
+        /// </summary>
+        /// <param name="soa"></param>
+        /// <returns>Milliradians</returns>
+        public static double SecondOfArcToMilliRadians(double soa)
+        {
+            return soa * (1000 * ConstValues.Pi) / (180 * 3600);
+        }
+
+        /// <summary>
+        /// Convert Seconds of Arc to Minute of Arc
+        /// </summary>
+        /// <param name="soa"></param>
+        /// <returns>Minute of Arc</returns>
+        public static double SecondOfArcToMinuteOfArc(double soa)
+        {
+            return soa / ConstValues.MoaSoa;
+        }
+
+        /// <summary>
+        /// Convert Seconds of Arc to Radians
+        /// </summary>
+        /// <param name="soa"></param>
+        /// <returns>Radians</returns>
+        public static double SecondOfArcToRadian(double soa)
+        {
+            return soa * (ConstValues.Pi / (180 * 3600));
+        }
     }
 }
