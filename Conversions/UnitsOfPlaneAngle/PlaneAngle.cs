@@ -115,5 +115,55 @@ namespace Conversions.UnitsOfPlaneAngle
         {
             return grad * ConstValues.GradSoa;
         }
+
+        /// <summary>
+        /// Convert Milliradians to Degrees
+        /// </summary>
+        /// <param name="millirads"></param>
+        /// <returns>Degrees</returns>
+        public static double MilliRadiansToDegrees(double millirads)
+        {
+            return millirads * (1800/(1000 * ConstValues.Pi));
+        }
+
+        /// <summary>
+        /// Convert Milliradians to Gradians
+        /// </summary>
+        /// <param name="millirads"></param>
+        /// <returns>Gradians</returns>
+        public static double MilliRadiansToGradians(double millirads)
+        {
+            return millirads * (200 / (1000 * ConstValues.Pi));
+        }
+
+        /// <summary>
+        /// Convert Milliradians to Minutes of Arc
+        /// </summary>
+        /// <param name="millirads"></param>
+        /// <returns>Minutes of Arc</returns>
+        public static double MilliRadiansToMinuteOfArc(double millirads)
+        {
+            return millirads * (60 * 180) / (1000 * ConstValues.Pi);
+        }
+
+        /// <summary>
+        /// Convert Milliradians to Radians
+        /// </summary>
+        /// <param name="millirads"></param>
+        /// <returns>Radians</returns>
+        public static double MilliRadiansToRadians(double millirads)
+        {
+            return millirads / 1000;
+        }
+
+        /// <summary>
+        /// Convert Milliradians to Seconds of Arc
+        /// </summary>
+        /// <param name="millirads"></param>
+        /// <returns></returns>
+        public static double MilliRadiansToSecondOfArc(double millirads)
+        {
+            return millirads * (3600 * 180) / (1000 * ConstValues.Pi);
+        }
     }
 }
